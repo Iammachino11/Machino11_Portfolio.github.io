@@ -1,0 +1,474 @@
+@media only screen and (min-width: 980px) {
+  
+    *{
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        line-height: 1.6em;
+    }
+    body.lock-scroll {
+        overflow: hidden;
+    }
+    
+    .fSection{
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        /* background-image: url("/Video/RubiksCube.gif"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #background-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    
+    nav{
+        display: flex;
+        min-height: 10vh;
+        height: 100%;
+        padding: 0 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav img{
+        width:80px;
+        height: 80px;
+        margin: 0px 40px;
+    }
+    
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0px 40px;
+    }
+    
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: white;
+        transition: width 0.5s;
+    }
+    
+    nav ul li a:hover::after{
+        width: 100%;
+    }
+        
+    
+    .content{
+        padding: 0 80px;
+    }
+    
+    .greeting{
+        color:white;
+        margin-top: 200px;
+        font-size: 70px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height: 0;
+        animation: greetingIntro 1.5s linear;
+        animation-play-state: paused;
+    }
+
+    @keyframes greetingIntro {
+        0%{
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+        100%{
+            opacity: 100;
+            transform: translateY(0px);
+        }
+        
+    }
+    
+    div.nameBox{
+        opacity: 0;
+        animation: nameIntro 1.5s linear forwards ;
+        animation-delay: 1.5s;
+        animation-play-state: paused;
+    
+        
+    }
+    
+    @keyframes nameIntro {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 100;
+        }
+        
+    }
+    
+    
+    .name{
+        letter-spacing: 0.05em;
+        font-size: 130px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: transparent;
+        -webkit-text-stroke: 2px white;
+        background: url(../Images/BackAnimation.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+    }
+    
+    @keyframes back {
+        100%{
+            background-position: 2000px 0;
+        }
+    }
+    
+    .subText ul{
+        display: flex;
+    }
+    li.same{
+        background-color: rgba(255, 255, 255, 0);
+        align-self: center;
+        min-width: 50px;
+        padding: 10px;
+        list-style: none;
+        margin: 0px 10px;
+        border: 2px solid white;
+        transition: background-color 0.6s linear;
+        transition-delay: 0.1s;
+        animation: sameAnim 1s forwards;
+        animation-delay: 2.5s;
+        animation-play-state: paused;
+        opacity: 0;
+    }
+    li.same:hover{
+        background-color: white;
+    }
+    
+    li.odd{
+        color: white;
+        align-self: center;
+        list-style: none;
+        border: none;
+        width: 400px;
+        padding: 10px;
+        transform: translateX(-10%);
+        animation: oddAnim 1s forwards;
+        animation-delay: 3.5s;
+        animation-play-state: paused;
+        opacity: 0;
+    }
+    
+    @keyframes sameAnim {
+        from { transform: translateY(100%); opacity: 0;}
+        to { transform: translateY(0%); opacity: 1; }
+    }
+    
+    @keyframes oddAnim {
+        from { transform: translateX(-10%); opacity: 0;}
+        to { transform: translateX(0%); opacity: 1; }
+    }
+    
+    li.same>a{
+        text-decoration: none;
+        color: white;
+        transition: color 0.6s linear;
+        transition-delay: 0.1s;
+    }
+    li.same:hover>a{
+        color: black;
+    }
+    
+    .socials{
+        position: absolute;
+        right: 75px;
+        bottom: 100px;
+    }
+    
+    .socialsLogo{
+        opacity: 0;
+        position: relative;
+        margin: 10px 0;
+        animation: socialsanimation 1s forwards;
+        animation-play-state: paused;
+        list-style: none; 
+    }
+    .socialsLogo img{
+        width: 30px;
+        transition: 0.5s transform linear;
+        transition-delay: 0.2s ;
+    }
+    
+    .socialsLogo img:hover{
+        transform: scale(1.2);
+    }
+    
+    .socialsLogo:nth-child(1) {
+        /* -webkit-animation-delay: 0; */
+        animation-delay: 1.9s;
+     }
+     
+     .socialsLogo:nth-child(2) {
+        /* -webkit-animation-delay: 1s; */
+        animation-delay: 2.2s;
+     }
+     
+     .socialsLogo:nth-child(3) {
+        /* -webkit-animation-delay: 2s; */
+        animation-delay: 2.5s;
+     }
+    
+    @keyframes socialsanimation{
+        from { transform: translateX(100%); opacity: 0;}
+        to { transform: translateX(0%); opacity: 1; }
+    }
+    
+    /* Beginning of styling for the second section */
+    .ssndSection{
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        background:linear-gradient(white 30%, rgb(226, 226, 226) 30%) ;
+    }
+    .SndSectCntTop{
+        width: 100%;
+        display: flex;
+        min-height: 30vh;
+    }
+    
+    .TpSndSectCnt{
+        margin: 30px;
+        align-items: center;
+    }
+    
+    .TpSndSectCnt img{
+        width: 250px;
+    }
+    
+    .myPic{
+        /* background-color: black; */
+        width: 30%;
+        max-height: 40vh;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+    
+    .aboutMe{
+        width: 100%;
+        text-align: justify;
+        font-size: 19px;
+    }
+    
+    .SndSectCntBtm{
+        max-width: 100%;
+        display: flex;
+        min-height: 20vh;
+    }
+    .gridAlign{
+        position: relative;
+        display: block;
+        min-width: 31%;
+        /* background-color: aqua; */
+    }
+    
+    .tools{
+        position: relative;
+        max-width: 450px;
+        width: 100%;
+        /* background-color: black; */
+        border-radius: 20px ;
+        border: 4px solid  rgb(31, 93, 181);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        min-height: 25vh;
+        height:fit-content;
+    }
+    
+    .toolsTxt{
+        position: absolute;
+        background-color: rgb(226, 226, 226) ;
+        color: rgb(176, 155, 117);
+        padding: 10px 40px;
+        /* transform: translate(-130px, -70px); */
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        align-items: center;
+        bottom: 80%;
+        left: 5%;      
+    }
+    
+    .toolsIcon{
+        width: 50px;
+        margin: 0 30px;
+    }
+    
+    .description-box {
+        display: none;
+        opacity: 0;
+        position: absolute;
+        bottom: -30px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        width: 100px;
+    }
+    
+    .tool {
+        position: relative;
+        transition: transform 0.4s linear;
+        transition-delay: 0.15s;
+        /* padding-bottom: 50px; */
+    }
+    .tool:hover{
+        transform: translateY(10px) ;
+        z-index: 5;
+    }
+    
+    .tool:hover .description-box {
+        display: block;
+        opacity: 1;
+    }
+    
+    .experience{
+        display: flex;
+        padding: 30px;
+        align-items: center;
+    }
+    .experienceTxtNo{
+        font-size: 100px;
+        color:  rgb(31, 93, 181);
+    }
+    .experienceTxtYrs{
+        margin-left: 20px;
+        font-size: 30px;
+        color: rgb(176, 155, 117);
+    }
+    
+    .creativeJourney{
+        width: 100%;
+        padding: 20px;
+    }
+    .creativeJourneyTxt{
+        width: 20vw;
+        position: absolute;
+        padding: 0 2vw;
+        font-size: 50px;
+        z-index: 2;
+        left: 35%;
+        color: rgb(31, 93, 181);
+    }
+    .CJImg{
+        position: relative;
+        width: 40%;
+        border-radius: 20px;
+        /* transform: translateX(30%); */
+        left: 10%;
+    }
+    
+    .CJmoreAboutMe{
+        /* clip-path: polygon(0% 0%, 100% 0%, 100% 75.3%, 30.2% 75.3%, 9.8% 100%, 9.8% 75.3%, 0% 75.3%); */
+        z-index: 2;
+        /* transform: translate(450px, -350px); */
+        width: 35%;
+        color: white;
+        background-color: rgba(0, 56, 134, 0.6);;
+        backdrop-filter: blur(10px);
+        position: absolute;
+        height: 40vh;
+        padding: 1.5%;
+        border-radius: 20px;
+        box-shadow:  grey -10px 15px 20px 1px;
+        text-align: justify;
+        overflow: hidden;
+        bottom: 10%;
+        right: 8%;
+    }
+    
+    .CJmoreAboutMe p::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    
+    .CJmoreAboutMe p::-webkit-scrollbar-track {
+        background-color: none;
+        border-radius: 10px;
+    }
+    .CJmoreAboutMe p::-webkit-scrollbar-thumb {
+        background: #c0c0c0;
+        border-radius: 10px;
+    }
+    .CJmoreAboutMe p::-webkit-scrollbar-thumb:hover {
+        background: #989898;
+      }
+    
+    .CJmoreAboutMe p{
+        padding-right: 20px;
+        height: 33vh;
+        position: relative;
+        overflow: auto;
+    }
+
+    footer{
+        background-image: url(/Images/LinkedInBanner.png);
+        background-position: center;
+        background-size: cover;
+        min-height: 35vh;
+        height: 100%;
+        position: relative;
+        color: white;
+    }
+    .footer-content{
+        display: flex;
+        min-height: 35vh;
+        padding: 2vw;
+        justify-content: space-between;
+        background-color: rgba(0, 60, 255, 0.3);
+        backdrop-filter: blur(20px);
+    }
+    .info{
+        display: block;
+        width: 20vw;
+        /* background-color: aqua; */
+    }
+    .info li{
+        display: block;
+        padding:1vw;
+        list-style: none;
+    }
+    .info li>a{
+        color: white;
+        text-decoration: none;
+    }
+    .copyright{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+
+}    
+
