@@ -6,7 +6,7 @@ let categoriesData = {};
 // Load portfolio data
 async function loadPortfolioData() {
     try {
-        const response = await fetch('/js/database.json');
+        const response = await fetch('js/database.json');
         const data = await response.json();
         portfolioData = data.portfolio;
         categoriesData = data.categories.reduce((acc, cat) => {
