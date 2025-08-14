@@ -1,0 +1,1113 @@
+{
+  "portfolio": {
+    "projects": [
+      {
+        "id": 1,
+        "name": "donna-construction-company-logo",
+        "categoryId": 1,
+        "projectTitle": "Donna Construction Logo",
+        "shortDescription": "Logo for construction company",
+        "fullDescription": "Designed a logo and brand identity system for Donna Construction. The project involved creating multiple logo concepts to provide the client with a range of options, from a more literal representation of the construction industry to more abstract and modern designs. The final logo, which combines the initial 'D' of 'Donna' with a house icon, was selected to represent the company's focus on residential construction.",
+        "tags": ["logo design", "brand identity", "color theory", "typography", "brand guidelines", "branding"],
+        "media": {
+          "thumbnail": "/portfolio/logo-design/donna-construction/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/donna-construction/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/donna-construction/thumb/image-1.jpg",
+              "altText": "Donna Construction primary logo"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/donna-construction/image-2.jpg",
+              "thumbnail": "/portfolio/logo-design/donna-construction/thumb/image-2.jpg",
+              "altText": "Donna Construction logo variations"
+            }
+          ]
+        },
+        "clientName": "Donna Construction Inc.",
+        "projectDate": "2025-01-03",
+        "duration": "2 days",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": true,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The primary challenge was to create a brand identity that was both professional and unique in the competitive construction industry. It was important to develop a logo that could stand out while also clearly communicating the company's services and values. The goal was to offer a variety of design directions to the client, ensuring the final choice was a perfect fit for their brand vision.",
+        "solution": "The solution involved a multi-concept approach, providing the client with several distinct logo options. These concepts included various symbols associated with construction, such as a construction helmet, a city skyline, and a gear, as well as a more conceptual design that integrated a house icon into the company's initial. This process allowed the client to actively participate in the design selection and ultimately choose the logo that best represented their brand and target audience.",
+        "results": "The final logo achieved the client's goals of projecting both professionalism and approachability. Its simplicity allows for easy application across all brand materials while maintaining immediate recognition."
+      },
+      {
+        "id": 2,
+        "name": "ilumin8-studios-branding",
+        "categoryId": 1,
+        "projectTitle": "ILUMIN8 Studios Logo",
+        "shortDescription": "Logo and brand design for a 3D creative studio",
+        "fullDescription": "I created the branding for ILUMIN8 Studios, a company that builds 3D worlds, does rendering, and works on gaming projects. The logo is based on a cube shape with bright colors to show depth and creativity. The font is bold and modern, matching the tech and gaming vibe of the brand.",
+        "tags": ["branding", "logo design", "3D", "gaming", "rendering", "color", "typography"],
+        "media": {
+          "thumbnail": "/portfolio/logo-design/ilumin8/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/ilumin8/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/ilumin8/thumb/image-1.jpg",
+              "altText": "ILUMIN8 Studios logo"
+            }
+          ]
+        },
+        "clientName": "ILUMIN8 Studios",
+        "projectDate": "2024-07-13",
+        "duration": "3 days",
+        "tools": ["Corel Draw"],
+        "projectUrl": "https://www.instagram.com/ilumin8studios?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        "featured": true,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The hard part was making a logo that shows what the company does — 3D and gaming — without making it too complicated or hard to use.",
+        "solution": "I used a cube shape to show 3D space and added bright colors to make it pop. The font was picked to look techy but still easy to read.",
+        "results": "The final design helped the studio stand out and gave them a strong look for their social media."
+      },
+      {
+        "id": 3,
+        "name": "jah-up-fashion-brand-logo",
+        "categoryId": 1,
+        "projectTitle": "Jah-up Fashion Logo",
+        "shortDescription": "Logo design for a fashion brand, including a specific design for their urban wear line.",
+        "fullDescription": "I created a brand logo for Jah-up Fashion based on a specific client request. The design incorporates a sewing thread and a needle to form the brand name 'Jah-up', with the thread passing through the needle to create the final letter 'P'. The project also included a separate logo for the brand's urban wear collection. The final urban wear logo features a bold, graffiti-style font to capture the street-style vibe, which the client selected from a few options I provided.",
+        "tags": ["logo design", "fashion branding", "urban wear", "typography", "custom lettering", "brand identity"],
+        "media": {
+            "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-1.jpg",
+            "items": [
+                {
+                    "type": "image",
+                    "original": "/portfolio/logo-design/jah-up/image-1.jpg",
+                    "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-1.jpg",
+                    "altText": "Jah-up Fashion main brand logo"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/logo-design/jah-up/image-2.jpg",
+                    "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-2.jpg",
+                    "altText": "Jah-up Fashion urban wear logo"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/logo-design/jah-up/image-3.jpg",
+                    "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-3.jpg",
+                    "altText": "Alternate design for urban wear logo"
+                }
+            ]
+        },
+        "clientName": "Jah-up Fashion",
+        "projectDate": "2024-04-24",
+        "duration": "3 Days",
+        "tools": ["Corel Draw"],
+        "projectUrl": "https://www.instagram.com/jah.up?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        "featured": false,
+        "testimonial": {
+            "quote": "",
+            "author": "",
+            "position": ""
+        },
+        "challenges": "The main challenge was to combine a literal sewing theme with the brand name 'Jah-up' in a way that looked natural and professional. For the urban wear logo, the challenge was to create a design that was edgy and unique, while still being readable and recognizable as part of the brand.",
+        "solution": "For the main logo, I carefully integrated the sewing needle and thread into the typography, making sure the elements flowed seamlessly to form the letters. For the urban wear logo, I created a few different graffiti-style options and let the client choose the one that best fit their vision for the collection.",
+        "results": "The final designs successfully met the client's requests. The main logo is a creative and memorable representation of the fashion brand, and the chosen urban wear logo gives the street-style line a distinct and modern feel."
+      },
+      {
+        "id": 4,
+        "name": "the-k.i.n.g-podcast-logo",
+        "categoryId": 1,
+        "projectTitle": "The K.I.N.G Podcast Logo",
+        "shortDescription": "Logo design for a podcast from an FX trading brand, with a neon and a flat version.",
+        "fullDescription": "I designed a logo for 'The K.I.N.G Podcast,' an offshoot of an existing FX trading brand. The acronym K.I.N.G. stands for 'Knowledge is next gen.' The logo combines a microphone with a crown and a lightbulb, symbolizing the core idea of knowledge, authority, and new ideas. I created two versions for the client: a vibrant neon version for digital platforms and a simpler, flat design for a professional, branded look.",
+        "tags": ["logo design", "podcast branding", "neon design", "brand identity", "typography"],
+        "media": {
+            "thumbnail": "/portfolio/logo-design/king-podcast/thumb/image-1.jpg",
+            "items": [
+                {
+                    "type": "image",
+                    "original": "/portfolio/logo-design/king-podcast/image-1.jpg",
+                    "thumbnail": "/portfolio/logo-design/king-podcast/thumb/image-1.jpg",
+                    "altText": "The K.I.N.G Podcast neon logo"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/logo-design/king-podcast/image-2.jpg",
+                    "thumbnail": "/portfolio/logo-design/king-podcast/thumb/image-2.jpg",
+                    "altText": "The K.I.N.G Podcast flat logo"
+                }
+            ]
+        },
+        "clientName": "K.I.N.G. FX Trading Brand",
+        "projectDate": "2025-08-14",
+        "duration": "1 day",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+            "quote": "",
+            "author": "",
+            "position": ""
+        },
+        "challenges": "The challenge was to create a logo that connected to the main brand's theme while also being unique to the podcast. The logo needed to be versatile enough to work in both a bright, dynamic digital space and a more understated, professional context.",
+        "solution": "The solution was to combine key symbols—a microphone for podcasting, a crown for 'K.I.N.G.', and a lightbulb for 'knowledge'—into a single, cohesive design. I then developed two distinct color palettes and styles (neon and flat) to give the client options for different uses.",
+        "results": "The client was very happy with the two logo versions. The neon design is perfect for social media promotions and video, while the flat version provides a solid, professional identity for their other brand materials."
+      },
+        {
+          "id": 5,
+          "name": "machino11-personal-logo",
+          "categoryId": 1,
+          "projectTitle": "MACHINO11 Personal Logo",
+          "shortDescription": "A personal logo designed for a my 3d social media account.",
+          "fullDescription": "I created this personal logo for myself under the name 'MACHINO11'. The design is a strong, geometric mark that combines the letter 'M' and number '11' to create a unique symbol. It's built with sharp angles and clean lines to give it a modern, and kinda aggressive sharp edges, for the kind of 3D work and digital art I create and share on my Instagram account.",
+          "tags": ["logo design", "personal branding", "3D art", "typography", "geometric design", "digital art"],
+          "media": {
+              "thumbnail": "/portfolio/logo-design/machino-11/thumb/image-1.jpg",
+              "items": [
+                  {
+                      "type": "image",
+                      "original": "/portfolio/logo-design/machino-11/image-1.jpg",
+                      "thumbnail": "/portfolio/logo-design/machino-11/thumb/image-1.jpg",
+                      "altText": "MACHINO11 personal logo"
+                  }
+              ]
+          },
+          "clientName": "Personal Project",
+          "projectDate": "2023-09-11",
+          "duration": "2 day",
+          "tools": ["Corel Draw"],
+          "projectUrl": "https://www.instagram.com/i_am_machino.11/",
+          "featured": false,
+          "testimonial": {
+              "quote": "",
+              "author": "",
+              "position": ""
+          },
+          "challenges": "The main challenge was to combine the letter 'M' and number '11' in a way that felt balanced and visually interesting, without making the logo too complex. I wanted it to be simple enough to be recognizable, but with enough detail to stand out.",
+          "solution": "I used a geometric and fragmented style to create a dynamic, single mark that reads as 'M' but incomplete then the number '11' combined forms the M and also 11 there. The dark color palette with different shades helps to give it a sense of depth.",
+          "results": "The logo has become a key part of my personal brand and is used consistently across my social media to identify my 3D artwork."
+      },
+      {
+        "id": 7,
+        "name": "novar-lynk-branding-and-flyer",
+        "categoryId": 1,
+        "projectTitle": "Novar Lynk Branding & Flyer",
+        "shortDescription": "Full branding and flyer design for a web development and management company.",
+        "fullDescription": "I created a complete brand identity for Novar Lynk, a tech company specializing in web development and management services. The project included designing a modern, geometric logo that combines the letters 'N' and 'L' using a gradient of blue and turquoise to represent technology and connectivity. I then applied this new brand identity to a promotional flyer. The flyer was designed to clearly showcase their web development services and contact information, using the same professional style and colors to ensure a cohesive look across all their marketing materials.",
+        "tags": ["logo design", "brand identity", "web development", "flyer design", "print design", "tech branding"],
+        "media": {
+          "thumbnail": "/portfolio/logo-design/novar-lynk/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/novar-lynk/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/novar-lynk/thumb/image-1.jpg",
+              "altText": "Novar Lynk logo"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/flyers/novar-lynk/image-1.jpg",
+              "thumbnail": "/portfolio/flyers/novar-lynk/thumb/image-1.jpg",
+              "altText": "Novar Lynk web development flyer"
+            }
+          ]
+        },
+        "clientName": "Novar Lynk",
+        "projectDate": "2025-08-14",
+        "duration": "2 days",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to create a cohesive visual style that worked for both the logo and the flyer. The logo had to be strong and professional on its own, and the flyer needed to effectively use the branding to communicate a lot of information without looking cluttered. It was important to maintain a consistent look and feel across both materials.",
+        "solution": "I designed the logo with clean, modern lines and then used the same design elements and color palette on the flyer. I created a clear, sectioned layout for the flyer that made it easy to read their services and contact info. The consistent use of the brand colors and typography tied everything together.",
+        "results": "The final brand identity and flyer work together perfectly to present a professional and trustworthy image for Novar Lynk. The consistent design helps them look established and reliable, which is great for attracting new clients."
+      },
+      {
+        "id": 7,
+        "name": "segzz-archer-branding",
+        "categoryId": 1,
+        "projectTitle": "SEGZZ ARCHER and 'The Archer' Branding",
+        "shortDescription": "Logo concepts and branding for a trading and education platform.",
+        "fullDescription": "I developed multiple logo concepts for a brand named 'SEGZZ ARCHER,' a platform focused on trading and financial education. The designs were inspired by the themes of archery and upward growth, symbolizing hitting your financial targets. The concepts included a few different options: one that combined an archer/mild human archer silhoutte and an arrow head, another that used candlesticks chart to form an upward trend and arrow, and a third with a more abstract archer figure. I explored different color palettes, from a professional dark and gold theme to a more vibrant blue, to give the client a range of choices.",
+        "tags": ["logo design", "brand identity", "trading", "finance", "education", "brand concepts"],
+        "media": {
+          "thumbnail": "/portfolio/logo-design/seggz-the-archer/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/seggz-the-archer/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/seggz-the-archer/thumb/image-1.jpg",
+              "altText": "Final logo design for 'The Archer' featuring a mild human silhoutte practicing archery"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/seggz-the-archer/image-2.jpg",
+              "thumbnail": "/portfolio/logo-design/seggz-the-archer/thumb/image-2.jpg",
+              "altText": "Multiple logo concepts for SEGGZ ARCHER"
+            }
+          ]
+        },
+        "clientName": "SEGZZ ARCHER",
+        "projectDate": "2025-02-02",
+        "duration": "5 days",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to create a logo that would work to indicate aiming/target, precison and execution. I also needed to make sure the designs looked professional and trustworthy to represent a financial education platform, without being boring.",
+        "solution": "I used the core theme of an archer and an arrow to represent the brand's goal-oriented nature. The different concepts, from the abstract archer to the one with the candlestick chart, provided a variety of visual directions. This approach gave the client a good range of choices, from a more straightforward look to a more symbolic one. The final chosen design for 'The Archer' used a clean and professional gold and dark blue palette.",
+        "results": ""
+      },
+      {
+        "id": 8,
+        "name": "zionware-logo-animation",
+        "categoryId": 6,
+        "projectTitle": "Zionware Logo and Animation",
+        "shortDescription": "Animated logo and brand identity for a tech company, combining the logo design with motion graphics.",
+        "fullDescription": "I created both the logo and a motion graphics piece to bring the Zionware brand to life. The logo is a modern, interconnected design featuring three geometric cubes. The animation shows these three cubes coming together and linking to form the final logo.",
+        "tags": ["logo design", "motion graphics", "brand identity", "tech branding", "animation"],
+        "media": {
+          "thumbnail": "/portfolio/logo-design/zionware/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/zionware/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/zionware/thumb/image-1.jpg",
+              "altText": "Zionware static logo"
+            },
+            {
+              "type": "video",
+              "original": "/portfolio/logo-design/zionware/video-1.mp4",
+              "thumbnail": "/portfolio/logo-design/zionware/thumb/image-2.jpg",
+              "altText": "Zionware logo animation",
+              "duration": 7
+            }
+          ]
+        },
+        "clientName": "Zionware Technologies Inc.",
+        "projectDate": "2024-06-03",
+        "duration": "1 Week",
+        "tools": ["Adobe Illustrator", "Blender 3d"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was creating a logo that was both visually interesting and could be easily animated. The design needed to be a strong static image, but also have parts that could move and connect in a smooth, dynamic way. The animation itself had to be short and impactful for use on different platforms.",
+        "solution": "I designed the logo with three distinct geometric shapes that could be animated to come together. The animation sequence shows each part moving into place and linking, which visually explains the 'interconnected' nature of the brand. This dual approach of designing the logo for both static and motion uses ensured a cohesive brand identity.",
+        "results": "The final logo and its animation give the brand a professional and modern look. The motion graphics piece provides a great way to introduce the brand on digital platforms and social media, making it more memorable and engaging."
+      },
+      {
+        "id": 9,
+        "name": "zwift-payment-logo",
+        "categoryId": 1,
+        "projectTitle": "Zwift Payment Logo",
+        "shortDescription": "Logo design for a payment brand.",
+        "fullDescription": "I designed a logo for 'Zwift Payment,' a brand focused on fast and reliable payment services. The logo is based on the letter 'Z' and incorporates motion lines to symbolize speed and efficiency. The color palette uses a vibrant gradient of blue and turquoise to represent trust, technology, and a forward-thinking approach. The design is simple, modern, and easily recognizable, perfect for a digital financial brand.",
+        "tags": ["logo design", "brand identity", "fintech", "payment solutions", "typography"],
+        "media": {
+          "thumbnail": "/portfolio/logo-design/zwift-payment/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/zwift-payment/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/zwift-payment/thumb/image-1.jpg",
+              "altText": "Zwift Payment logo variations"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/zwift-payment/image-2.jpg",
+              "thumbnail": "/portfolio/logo-design/zwift-payment/thumb/image-2.jpg",
+              "altText": "Zwift Payment logo with full name"
+            }
+          ]
+        },
+        "clientName": "Zwift Payment",
+        "projectDate": "2025-03-14",
+        "duration": "1 day",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The challenge was to create a logo that immediately communicates speed and efficiency, which are key values for a payment company. It needed to be unique while still feeling trustworthy and professional. The design had to work well in a small format, like an app icon, and still be clear and readable.",
+        "solution": "I used the initial 'Z' as the central element and added dynamic motion lines to suggest movement and speed. The use of a gradient from blue to turquoise gives the logo a modern feel. I provided two variations of the logo to the client: one with a straight Z and one with a slightly tilted Z, both with the motion lines, allowing them to choose the one that best fit their brand vision.",
+        "results": "The final logo successfully represents the brand's name and services. Its clean design and dynamic elements make it memorable and suitable for all their digital and branding needs."
+      },
+      {
+        "id": 10,
+        "name": "various-personal-logo-concepts",
+        "categoryId": 1,
+        "projectTitle": "Various Personal Logo Concepts",
+        "shortDescription": "A collection of personal logo concepts for different brand ideas.",
+        "fullDescription": "This is a collection of personal logo designs I worked on in my free time to practice different branding styles, , feel free to be inspired.",
+        "tags": ["logo design", "brand identity", "typography", "app icon", "sports branding", "urban wear", "personal project"],
+        "media": {
+          "thumbnail": "/portfolio/logo-design/personal/art-brand/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/personal/art-brand/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/personal/art-brand/thumb/image-1.jpg",
+              "altText": "Artist app icon"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/personal/art-brand/image-2.jpg",
+              "thumbnail": "/portfolio/logo-design/personal/art-brand/thumb/image-2.jpg",
+              "altText": "Artist app icon variations"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/personal/flow-focus/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/personal/flow-focus/thumb/image-1.jpg",
+              "altText": "Flow Focus logo"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/personal/framer/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/personal/framer/thumb/image-1.jpg",
+              "altText": "Framer logo"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/logo-design/personal/slyme/image-1.jpg",
+              "thumbnail": "/portfolio/logo-design/personal/slyme/thumb/image-1.jpg",
+              "altText": "SLYME logo"
+            }
+          ]
+        },
+        "clientName": "Personal Projects",
+        "projectDate": null,
+        "duration": null,
+        "tools": ["Corel Draw", "Adobe Illustrator"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "",
+        "solution": "",
+        "results": ""
+      },
+      {
+        "id": 11,
+        "name": "bite-bliss-flyer",
+        "categoryId": 7,
+        "projectTitle": "Bite Bliss Flyer",
+        "shortDescription": "Flyer design for Bite Bliss, a catering and food services brand.",
+        "fullDescription": "I designed a promotional flyer for Bite Bliss, a brand that offers catering services and a variety of food items. The flyer is visually appealing, using a dark background to make the food images stand out. I organized the brand's services and contact information clearly so customers could quickly see what they offer. The design uses high-quality images of their food to make it look appetizing and professional.",
+        "tags": ["flyer design", "print design", "marketing materials", "catering", "food services"],
+        "media": {
+          "thumbnail": "/portfolio/flyers/bite-bliss/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/flyers/bite-bliss/image-1.jpg",
+              "thumbnail": "/portfolio/flyers/bite-bliss/thumb/image-1.jpg",
+              "altText": "Bite Bliss flyer"
+            }
+          ]
+        },
+        "clientName": "Bite Bliss",
+        "projectDate": "2025-03-17",
+        "duration": "1 day",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to create a flyer that was eye-catching and organized, even with a lot of information. I needed to showcase a variety of food items and list all the services without making the design feel cluttered.",
+        "solution": "I used a clean layout with clear sections for the brand name, services, and contact information. The use of geometric frames for the food images helped to keep the design modern and tidy. The yellow and white text on the dark background ensures all the important details are easy to read.",
+        "results": "The final flyer is a professional and effective marketing tool for Bite Bliss. It clearly communicates their services and entices customers with appealing visuals of their food."
+      },
+      {
+        "id": 12,
+        "name": "ielts-flyer-design",
+        "categoryId": 7,
+        "projectTitle": "IELTS Coaching Flyer",
+        "shortDescription": "Flyer design for a limited discount offer on IELTS coaching services.",
+        "fullDescription": "I created a promotional flyer to advertise a limited-time discount for IELTS coaching. The design is clean and professional, using a blue and white color palette to create a trustworthy and educational feel. The layout is split into two sections: the top half features a student image to connect with the target audience, and the bottom half clearly outlines the benefits of the coaching and the special discount offer. All the important information, including the contact number, is easy to find.",
+        "tags": ["flyer design", "print design", "marketing", "education", "promotion"],
+        "media": {
+          "thumbnail": "/portfolio/flyers/IELTS/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/flyers/IELTS/image-1.jpg",
+              "thumbnail": "/portfolio/flyers/IELTS/thumb/image-1.jpg",
+              "altText": "IELTS coaching flyer"
+            }
+          ]
+        },
+        "clientName": "IELTS Coaching Service",
+        "projectDate": "2024-04-05",
+        "duration": "1 day",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to make a lot of text feel organized and easy to digest. The flyer had to explain what the service is, list the benefits, and show a price discount without looking crowded.",
+        "solution": "I used a two-column layout and separated the content into distinct blocks. The list of questions and the discount offer were given their own spaces to make them stand out. The use of icons and a clear font helped to guide the reader’s eye through the information.",
+        "results": "The final flyer is both informative and visually appealing, effectively communicating the value of the coaching service and the special offer to potential students."
+      },
+      {
+        "id": 13,
+        "name": "sniper-kings-forex-flyer",
+        "categoryId": 7,
+        "projectTitle": "Sniper Kings Forex Trading Flyer",
+        "shortDescription": "Promotional flyer for a Forex trading education and mentorship program.",
+        "fullDescription": "I designed a flyer for 'Sniper Kings,' a trading brand founded by Sammie Richie and Matthew D. KING. The flyer is a promotional piece for their Forex trading education program, highlighting how they made their first million. The design uses a cool blue color palette to suggest trust and professionalism. The layout is clean, with key information organized into bullet points and a clear call-to-action for their 'Free' or 'Fee' mentorship program. The flyer features high-quality images of the founders to build a personal connection with potential students.",
+        "tags": ["flyer design", "marketing", "forex trading", "education", "finance", "print design"],
+        "media": {
+          "thumbnail": "/portfolio/flyers/sniper-kings/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/flyers/sniper-kings/image-1.jpg",
+              "thumbnail": "/portfolio/flyers/sniper-kings/thumb/image-1.jpg",
+              "altText": "Sniper Kings Forex trading flyer"
+            }
+          ]
+        },
+        "clientName": "Sniper Kings",
+        "projectDate": "2025-03-18",
+        "duration": "1 day",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to create a flyer that would feel trustworthy and professional for a financial topic. I needed to present the information about making money from trading in a way that was exciting but not misleading. The design had to grab attention and quickly explain the benefits of the program.",
+        "solution": "I used a professional color scheme and a clean, organized layout. I made sure the headline was bold and the key benefits were easy to read. Featuring the founders' photos helps to add a personal touch and builds trust with the audience, making the offer feel more real.",
+        "results": "The final flyer is an effective promotional tool that looks professional and exciting. It clearly outlines the program's value and provides all the necessary information for interested students to get in touch."
+      },
+      {
+        "id": 14,
+        "name": "remote-developers-skillup-banner",
+        "categoryId": 3,
+        "projectTitle": "Remote Developers SkillUp Banner",
+        "shortDescription": "Promotional banner for a workshop on remote web development skills.",
+        "fullDescription": "I designed a promotional banner for the 'Remote Developers SkillUp' event. The goal was to create an eye-catching graphic that clearly explains the workshop's purpose. The design features illustrations of remote developers in different locations to highlight the global nature of the work. I used a central graphic with icons for various programming languages (PHP, Node.js, Python, Java) to show the technical focus of the event. The banner also includes all the necessary event details like the date, time, location, and contact information in a clean, easy-to-read format.",
+        "tags": ["banner design", "event promotion", "web development", "graphic design", "marketing"],
+        "media": {
+          "thumbnail": "/portfolio/banners/remote-dev-skillup/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/banners/remote-dev-skillup/image-1.jpg",
+              "thumbnail": "/portfolio/banners/remote-dev-skillup/thumb/image-1.jpg",
+              "altText": "Remote Developers SkillUp banner"
+            }
+          ]
+        },
+        "clientName": "Remote Developers SkillUp",
+        "projectDate": "2024-03-02",
+        "duration": "1 day",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to visually represent the complex idea of remote collaboration and a wide range of programming skills in a simple and engaging way. I needed to make sure the banner was not too technical for a general audience but still informative for developers.",
+        "solution": "I used clean illustrations and a simple layout to break down the information. The central cloud graphic with different language icons makes the technical focus clear. The use of a friendly blue color palette and organized sections for the event details and features helps to make the banner inviting and easy to understand.",
+        "results": "The final banner is an effective marketing tool for the event. It clearly communicates the key topics and logistics in a visually appealing way that successfully targets the right audience."
+      },
+      {
+        "id": 15,
+        "name": "t&m-wedding-souvenir-packaging",
+        "categoryId": 4,
+        "projectTitle": "T&M Wedding Souvenir Packaging",
+        "shortDescription": "Custom packaging design for wedding souvenirs, including hand soap and a fruit drink.",
+        "fullDescription": "I created a set of custom labels for T&M's wedding souvenirs. The project included a wrapper for 'Chi Flo Hand Soap' and a label for a 'T&M Zobo Mixed Fruit Juice' drink. Both designs share a similar elegant and celebratory feel. The soap label features a clean, watery background with bubbles, while the juice label has a mix of fruit and a vibrant color scheme. Both labels prominently display the couple's initials and the year '2024,' with a 'Thanks for Coming' message to personalize the gifts for their wedding guests.",
+        "tags": ["packaging design", "souvenir design", "wedding", "custom label", "print design"],
+        "media": {
+          "thumbnail": "/portfolio/packaging-design/chiflo/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/packaging-design/chiflo/image-1.jpg",
+              "thumbnail": "/portfolio/packaging-design/chiflo/thumb/image-1.jpg",
+              "altText": "T&M wedding souvenir soap wrapper"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/packaging-design/chiflo/image-2.jpg",
+              "thumbnail": "/portfolio/packaging-design/chiflo/thumb/image-2.jpg",
+              "altText": "T&M Zobo mixed fruit juice label"
+            }
+          ]
+        },
+        "clientName": "T&M",
+        "projectDate": "2024-08-23",
+        "duration": "2 days",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to create a cohesive and elegant design for two very different products. The labels needed to feel like a matched set for a wedding, while still having unique elements that fit the product inside, all while being a personal and memorable gift for guests.",
+        "solution": "I used a consistent oval shape for both labels and a similar script font for the brand names to create a unified look. For the soap, I used a water and bubble motif. For the juice, I used images of grapes and strawberries. I tied the designs together with a warm, golden color palette on the edges of both labels.",
+        "results": "The final labels successfully served as elegant and personal souvenirs for the wedding guests, creating a memorable keepsake that connected the two different items into a single branded gift."
+      },
+      {
+        "id": 16,
+        "name": "rise-up-and-conquer-t-shirt-design",
+        "categoryId": 3,
+        "projectTitle": "Rise Up and Conquer T-Shirt Design",
+        "shortDescription": "A graphic design for a t-shirt with a powerful, motivational message and a glitch-art style.",
+        "fullDescription": "I created a custom t-shirt design featuring a stylized figure and the motivational text 'RISE UP AND CONQUER.' The design uses a unique glitch-art effect with layered primary colors (red, blue, yellow) to create a sense of energy and urgency. The typography is distressed to match the overall style. This graphic was designed specifically for apparel, created to stand out and make a bold statement when printed on a shirt.",
+        "tags": ["t-shirt design", "apparel design", "print design", "illustration", "merchandise", "custom art"],
+        "media": {
+          "thumbnail": "/portfolio/prints/rise-and-conquer/thumb/image-1.jpg",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/prints/rise-and-conquer/image-1.jpg",
+              "thumbnail": "/portfolio/prints/rise-and-conquer/thumb/image-1.jpg",
+              "altText": "Rise Up and Conquer t-shirt design"
+            }
+          ]
+        },
+        "clientName": "Personal Project",
+        "projectDate": "2024-05-21",
+        "duration": "1 day",
+        "tools": ["Corel Draw"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "The main challenge was to create a design that was both visually dynamic and legible. The glitch effect, while stylish, needed to be controlled so that the text and the main figure were still clearly recognizable. I also had to make sure the design was optimized for printing on fabric.",
+        "solution": "I created a clean line-art base for the figure and the typography, then layered the different color channels on top with slight offsets to achieve the glitch effect. This method gave the design a structured but chaotic feel. The colors were chosen to be vibrant and contrasting so they would pop on the fabric.",
+        "results": "The final design is a powerful and unique graphic that works perfectly as a t-shirt print. The style is edgy and memorable, and the message is clear and impactful."
+      },
+      {
+        "id": 17,
+        "name": "gaming-setup",
+        "categoryId": 7,
+        "projectTitle": "Gaming setup 3d rendering",
+        "shortDescription": "A realistic gaming setup.",
+        "fullDescription": "This is a personal 3D projects to practice my skills in 3d modelling and rendering. The first part of the project is a realistic rendering of a gaming setup, which I lit and textured to show different times of day—daylight, nighttime, and with ambient RGB lighting.",
+        "tags": ["3d rendering", "personal project", "CGI", "animation", "logo design"],
+        "media": {
+          "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-1.png",
+          "items": [
+            {
+              "type": "image",
+              "original": "/portfolio/3d-rendering/gaming-setup/image-1.png",
+              "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-1.png",
+              "altText": "A 3D render of a gaming setup with RGB lighting"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/3d-rendering/gaming-setup/image-2.png",
+              "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-2.png",
+              "altText": "A 3D render of a gaming setup at night"
+            },
+            {
+              "type": "image",
+              "original": "/portfolio/3d-rendering/gaming-setup/image-3.jpg",
+              "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-3.jpg",
+              "altText": "A 3D render of a gaming setup during the day"
+            }
+          ]
+        },
+        "clientName": "Personal Project",
+        "projectDate": "2024-02-24",
+        "duration": "3 days",
+        "tools": ["Blender 3d"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+        },
+        "challenges": "",
+        "solution": "",
+        "results": ""
+      },
+      {
+        "id": 18,
+        "name": "3d-environmental-ligthing",
+        "categoryId": 8,
+        "projectTitle": "3D Environmental Lighting",
+        "shortDescription": "A collection of various personal 3D renders.",
+        "fullDescription": "This is a collection of my personal 3D projects created to practice and improve my skills in modeling, texturing, lighting, and rendering. The collection includes a 'Dune'-inspired desert scene with a futuristic hovercraft, a cinematic render of a lost temple, a realistic city street with sports cars, and a A skull half-submerged in mud, with blue crystals glowing nearby. Each project focuses on a different aspect of 3D art, from creating large-scale environments to achieving realistic lighting and materials.",
+        "tags": ["3d rendering", "personal project", "CGI", "environment design", "automotive", "lighting", "blender"],
+        "media": {
+            "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-1.png",
+            "items": [
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-1/image-1.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-1.png",
+                    "altText": "A 3D render of a lost temple with light rays"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-1/image-2.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-2.png",
+                    "altText": "A 3D render of a burning candle"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-1/image-3.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-3.png",
+                    "altText": "A 3D render of two sports cars on a city street"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-1/image-4.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-4.png",
+                    "altText": "A 3D render of a 'Dune'-themed desert scene with a hovercraft"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-1/image-5.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-5.jpg",
+                    "altText": "A 3d render of a skull half-submerged in mud, with blue crystals nearby"
+                }
+            ]
+        },
+        "clientName": "Personal Project",
+        "projectDate": null,
+        "duration": null,
+        "tools": ["Blender 3D"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+            "quote": "",
+            "author": "",
+            "position": ""
+        },
+        "challenges": "",
+        "solution": "",
+        "results": ""
+      },
+      {
+        "id": 19,
+        "name": "3d-product-visualisation",
+        "categoryId": 8,
+        "projectTitle": "3D Product Visualization",
+        "shortDescription": "A collection of product renders created to practice 3D modeling, lighting, and material design for commercial products.",
+        "fullDescription": "I created this set of 3D renders as a personal project to practice my skills in product visualization. The collection includes a wine bottle and glass, a perfume bottle, and a wine bottle on a geometric background. My main focus was on getting the materials and lighting to look as real as possible, from the glossy glass and liquid to the reflective bottle caps and paper labels. Each scene was a challenge in creating a specific mood and highlighting the product’s key features.",
+        "tags": ["3d rendering", "personal project", "product design", "packaging", "CGI", "blender"],
+        "media": {
+            "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-1.jpg",
+            "items": [
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-2/image-1.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-1.jpg",
+                    "altText": "A 3D render of a luxury perfume bottle"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-2/image-2.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-2.jpg",
+                    "altText": "A 3D render of wine being poured into a glass"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-2/image-3.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-3.jpg",
+                    "altText": "A 3D render of a wine bottle on a glowing hexagonal background"
+                }
+            ]
+        },
+        "clientName": "Personal Project",
+        "projectDate": null,
+        "duration": null,
+        "tools": ["Blender 3D"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+            "quote": "",
+            "author": "",
+            "position": ""
+        },
+        "challenges": "",
+        "solution": "",
+        "results": ""
+      },
+      {
+        "id": 20,
+        "name": "3d-environment",
+        "categoryId": 8,
+        "projectTitle": "3D Environments",
+        "shortDescription": "A collection of personal 3D renders focusing on sci-fi and environmental scenes.",
+        "fullDescription": "This is another collection of my personal 3D projects, where I practiced creating different types of scenes. The collection includes a mysterious ancient cave with a floating tesseract cube, a spaceship flying past a ringed planet at sunset, a fantasy-like environment with a bridge, and a modern city gas station at night. Each piece was an exercise in creating a specific atmosphere and using lighting and textures to tell a story.",
+        "tags": ["3d rendering", "personal project", "CGI", "environment design", "sci-fi", "fantasy", "blender"],
+        "media": {
+            "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-1.jpg",
+            "items": [
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-3/image-1.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-1.jpg",
+                    "altText": "A 3D render of an ancient temple bridge with autumn leaves"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-3/image-2.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-2.jpg",
+                    "altText": "A 3D render of a futuristic cube floating in a cave"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-3/image-3.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-3.jpg",
+                    "altText": "A 3D render of a sci-fi object floating in space"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-3/image-4.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-4.jpg",
+                    "altText": "A 3D render of a spaceship flying past a planet"
+                },
+                {
+                    "type": "image",
+                    "original": "/portfolio/3d-rendering/collection-3/image-5.png",
+                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-5.jpg",
+                    "altText": "A 3D render of a neon gas station at night"
+                }
+            ]
+        },
+        "clientName": "Personal Project",
+        "projectDate": null,
+        "duration": null,
+        "tools": ["Blender 3D"],
+        "projectUrl": "",
+        "featured": false,
+        "testimonial": {
+            "quote": "",
+            "author": "",
+            "position": ""
+        },
+        "challenges": "",
+        "solution": "",
+        "results": ""
+    },
+    {
+      "id": 21,
+      "name": "hyper-car-concept",
+      "categoryId": 8,
+      "projectTitle": "Hyper car concept",
+      "shortDescription": "A personal project designing and rendering a concept hyper car in various environments.",
+      "fullDescription": "I designed this concept car as a personal project to practice advanced 3D modeling and rendering skills. The goal was to create a hyper car and showcase it in different settings to test my abilities with lighting and materials. The project includes studio-style shots with sharp lighting, a dynamic scene of the car driving through a desert. Each render focuses on different aspects of the car's design, from its aggressive front to the detailed rear exhaust and unique body shape.",
+      "tags": ["3d rendering", "personal project", "automotive", "concept design", "CGI", "blender"],
+      "media": {
+          "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-1.jpg",
+          "items": [
+              {
+                  "type": "image",
+                  "original": "/portfolio/3d-rendering/concept-car/image-1.png",
+                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-1.jpg",
+                  "altText": "A white concept hyper car from a low front angle"
+              },
+              {
+                  "type": "image",
+                  "original": "/portfolio/3d-rendering/concept-car/image-2.png",
+                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-2.jpg",
+                  "altText": "A 3D render of a hyper car on a desert road"
+              },
+              {
+                  "type": "image",
+                  "original": "/portfolio/3d-rendering/concept-car/image-3.png",
+                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-3.jpg",
+                  "altText": "A studio-style 3D render of the car from the front with red and blue lights"
+              },
+              {
+                  "type": "image",
+                  "original": "/portfolio/3d-rendering/concept-car/image-4.png",
+                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-4.jpg",
+                  "altText": "A rear view of the hyper concept car in a studio setting"
+              },
+              {
+                  "type": "image",
+                  "original": "/portfolio/3d-rendering/concept-car/image-5.png",
+                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-5.jpg",
+                  "altText": "A side view of the hyper concept car"
+              }
+          ]
+      },
+      "clientName": "Personal Project",
+      "projectDate": "2024-04-26",
+      "duration": "1 month",
+      "tools": ["Blender 3D"],
+      "projectUrl": "",
+      "featured": false,
+      "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+      },
+      "challenges": "Modeling a car from scratch and making it look realistic was a big challenge. I had to pay close attention to the details, like the vents and body lines. Getting the reflections and shadows right, especially in the desert and city scenes, was also tough to make it look like the car was actually there and not just placed on top of a photo.",
+      "solution": "I spent a lot of time on the car's body, using clean modeling techniques to get the surfaces smooth and correct. For the outdoor scenes, I used HDRI lighting to match the light of the environment. For the studio shots, I used a custom three-point lighting setup to highlight the car's shape and reflections. This allowed me to create professional-quality visuals in different settings.",
+      "results": "This project was a great way to showcase my skills in advanced 3D modeling and realistic rendering. The final images are high-quality and show that I can create complex objects and place them convincingly in different environments."
+    },
+    {
+      "id": 22,
+      "name": "bi-plane-animation",
+      "categoryId": 6,
+      "projectTitle": "Bi-Plane Animation",
+      "shortDescription": "A short animation of a biplane flying through a stormy, cloudy sky.",
+      "fullDescription": "This is a personal animation project focused on creating a cinematic feel. I modeled a biplane and created a scene with a thick, cloudy atmosphere. The animation shows the plane flying through the clouds, giving a sense of being alone on a long journey. The main goal was to practice camera movements and realistic environmental effects like clouds, fog, and atmospheric lighting.",
+      "tags": ["motion graphics", "personal project", "3D animation", "cinematic", "blender", "environmental art"],
+      "media": {
+          "thumbnail": "/portfolio/3d-rendering/animations/regular-animations/bi-plane/thumb/image-1.jpg",
+          "items": [
+              {
+                  "type": "video",
+                  "original": "/portfolio/3d-rendering/animations/regular-animations/bi-plane/video-1.mp4",
+                  "thumbnail": "/portfolio/3d-rendering/animations/regular-animations/bi-plane/thumb/image-1.jpg",
+                  "altText": "A lonely biplane flying through clouds",
+                  "duration": 10
+              }
+          ]
+      },
+      "clientName": "Personal Project",
+      "projectDate": "2023-09-01",
+      "duration": "3 weeks",
+      "tools": ["Blender 3D"],
+      "projectUrl": "",
+      "featured": false,
+      "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+      },
+      "challenges": "Making the clouds and atmosphere look believable was the biggest challenge. It was also tricky to get the plane's movements to feel natural and not just a straight path. I had to make sure the lighting worked well to create the moody and cinematic vibe.",
+      "solution": "I used a volumetric fog effect to create the clouds and atmosphere, and I hand-keyed the plane's animation with subtle movements to make it feel more alive. I also spent a lot of time on the lighting, using a single light source to create a dramatic, foggy sunset feel.",
+      "results": "The final animation successfully creates the moody and cinematic atmosphere I was going for. It shows a good understanding of environmental design and animation principles, making it a great portfolio piece."
+    },
+    {
+      "id": 23,
+      "name": "abstract-rubiks-cube-animation",
+      "categoryId": 6,
+      "projectTitle": "Abstract Rubiks Cube Animation",
+      "shortDescription": "A 3D animation of a glass rubiks cube.",
+      "fullDescription": "This animation shows a clear, glass-like rubiks cube that rotates and changes shape, revealing a colorful, glowing wireframe that constantly moves and solving itself.",
+      "tags": ["motion graphics", "personal project", "3D animation", "looping animation", "cube", "blender"],
+      "media": {
+          "thumbnail": "/portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/thumb/image-1.jpg",
+          "items": [
+              {
+                  "type": "video",
+                  "original": "/portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/video-1.mp4",
+                  "thumbnail": "/portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/thumb/image-1.jpg",
+                  "altText": "Abstract Rubiks Cube Animation",
+                  "duration": 20
+              }
+          ]
+      },
+      "clientName": "Personal Project",
+      "projectDate": "2024-08-26",
+      "duration": "3 days",
+      "tools": ["Blender 3D"],
+      "projectUrl": "",
+      "featured": false,
+      "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+      },
+      "challenges": "",
+      "solution": "",
+      "results": ""
+    },
+    {
+      "id": 25,
+      "name": "bull-vs-bear-illustration",
+      "categoryId": 5,
+      "projectTitle": "Bull vs Bear Illustration",
+      "shortDescription": "A 2D illustration of a bull and a bear charging, inspired by the 'Firewatch' art style.",
+      "fullDescription": "This is a personal illustration project I created, inspired by the 'Firewatch' art style. It shows a powerful bull and a charging bear, which are classic symbols for the stock market. The main goal was to capture a sense of dynamic action and tension using bold silhouettes and a unique color palette. The layered background and the use of strong light and shadow help to give the image a deep, atmospheric feel.",
+      "tags": ["illustration", "2d design", "firewatch style", "digital art", "concept art", "coreldraw"],
+      "media": {
+          "thumbnail": "/portfolio/illustrations/bull-vs-bear/thumb/image-1.jpg",
+          "items": [
+              {
+                  "type": "image",
+                  "original": "/portfolio/illustrations/bull-vs-bear/image-1.png",
+                  "thumbnail": "/portfolio/illustrations/bull-vs-bear/thumb/image-1.jpg",
+                  "altText": "A 2D illustration of a bull and a bear charging"
+              }
+          ]
+      },
+      "clientName": "Personal Project",
+      "projectDate": "2023-09-06",
+      "duration": "2 days",
+      "tools": ["CorelDRAW"],
+      "projectUrl": "",
+      "featured": false,
+      "testimonial": {
+          "quote": "",
+          "author": "",
+          "position": ""
+      },
+      "challenges": "The main challenge was translating the 'bull vs bear' concept into a visually compelling scene. I had to focus on getting the silhouettes of the animals just right to show their power and movement. Applying the specific layered, 'Firewatch' style to the background without losing the focus on the main subjects was also tricky.",
+      "solution": "I used a strong composition with the two animals as the main focus, placing them on a dark, rocky foreground. For the background, I used multiple layers of hills and mountains with a limited, warm color palette that gets lighter towards the sky. This created the depth and atmosphere needed for the style.",
+      "results": "The final illustration is a powerful and unique piece that effectively combines a well-known concept with a popular art style. It showcases my ability to create strong compositions and use color and lighting to tell a story."
+    }
+    ]
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Brand Identity",
+      "slug": "brand-identity",
+      "description": "Logo design, brand guidelines, and complete visual identity systems",
+      "icon": "🎨",
+      "colors": {
+        "background": "#0099ff33",
+        "text": "#0072beb3"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Web Design",
+      "slug": "web-design",
+      "description": "UI/UX design, responsive websites, and digital experiences",
+      "icon": "💻",
+      "colors": {
+        "background": "#5d00ff33",
+        "text": "#7651aab3"
+      }    
+    },
+    {
+      "id": 3,
+      "name": "Print Design",
+      "slug": "print-design",
+      "description": "Brochures, reports, marketing materials, and print publications",
+      "icon": "📄",
+      "colors": {
+        "background": "#ee00ff33",
+        "text": "#aa5194b3"
+      }    
+    },
+    {
+      "id": 4,
+      "name": "Packaging Design",
+      "slug": "packaging-design",
+      "description": "Product packaging, structural design, and retail solutions",
+      "icon": "📦",
+      "colors": {
+        "background": "#ff000033",
+        "text": "#aa5151b3"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Illustration",
+      "slug": "illustration",
+      "description": "Custom illustrations, digital art, and conceptual designs",
+      "icon": "🖼️",
+      "colors": {
+        "background": "#00bbff33",
+        "text": "#51a6aab3"
+      }    
+    },
+    {
+      "id": 6,
+      "name": "Motion Graphics",
+      "slug": "motion-graphics",
+      "description": "Animation, explainer videos, and motion design",
+      "icon": "🎬",
+      "colors": {
+        "background": "#ff7b0033",
+        "text": "#aa8551b3"
+      }    
+    },
+    {
+      "id": 7,
+      "name": "Flyer Design",
+      "slug": "flyer-design",
+      "description": "Promotional flyers, leaflets, and other print marketing materials",
+      "icon": "📄",
+      "colors": {
+        "background": "#ff000033",
+        "text": "#aa5151b3"
+      }
+    },
+    {
+      "id": 8,
+      "name": "3D Rendering",
+      "slug": "3d-rendering",
+      "description": "3D modeling, rendering, and animated videos",
+      "icon": "🧊",
+      "colors": {
+        "background": "#fff70033",
+        "text": "#a9aa51b3"
+      }
+    }
+
+    
+  ],
+  "skills": [
+    "Adobe Creative Suite",
+    "Figma",
+    "Sketch",
+    "UI/UX Design",
+    "Brand Identity",
+    "Typography",
+    "Color Theory",
+    "Logo Design",
+    "Web Design",
+    "Print Design",
+    "Packaging Design",
+    "Illustration",
+    "Motion Graphics",
+    "After Effects",
+    "Cinema 4D",
+    "Prototyping",
+    "User Research",
+    "Design Systems",
+    "Responsive Design",
+    "Accessibility"
+  ]
+}

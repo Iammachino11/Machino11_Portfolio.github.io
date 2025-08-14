@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Projects</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+
+        /* Projects Grid */
+        .projectsGrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* Project Card Styles */
+        .projectCard {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .projectCard:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .cardImage {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .cardImage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .projectCard:hover .cardImage img {
+            transform: scale(1.05);
+        }
+
+        .cardContent {
+            padding: 20px;
+        }
+
+        .cardTitle {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .cardDescription {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        .cardMeta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            font-size: 0.85rem;
+        }
+
+        .cardCategory {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cardDate {
+            color: #7f8c8d;
+        }
+
+        .featuredTag {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            z-index: 1;
+        }
+
+        /* Modal Styles */
+        .modalOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .modalOverlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modalContent {
+            background: white;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 900px;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 30px;
+            position: relative;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+        }
+
+        .modalOverlay.active .modalContent {
+            transform: translateY(0);
+        }
+
+        .closeModal {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #7f8c8d;
+            background: none;
+            border: none;
+        }
+
+        .closeModal:hover {
+            color: #e74c3c;
+        }
+
+        .modalHeader {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .modalTitle {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .modalSubtitle {
+            color: #7f8c8d;
+            font-size: 1rem;
+        }
+
+        .modalBody {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .modalGallery {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .modalMainImage {
+            height: 300px;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .modalMainImage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .modalThumbnails {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .modalThumbnail {
+            height: 80px;
+            overflow: hidden;
+            border-radius: 5px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .modalThumbnail:hover, .modalThumbnail.active {
+            opacity: 1;
+        }
+
+        .modalThumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .modalDetails {
+            padding-right: 15px;
+        }
+
+        .modalDescription {
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .modalMeta {
+            margin-bottom: 20px;
+        }
+
+        .metaItem {
+            margin-bottom: 10px;
+            display: flex;
+        }
+
+        .metaLabel {
+            font-weight: 600;
+            width: 120px;
+            color: #2c3e50;
+        }
+
+        .metaValue {
+            flex: 1;
+        }
+
+        .modalTags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .modalTag {
+            background-color: #f1f2f6;
+            color: #2c3e50;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+
+        .modalTestimonial {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .testimonialQuote {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .testimonialAuthor {
+            font-weight: 600;
+        }
+
+        .testimonialPosition {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        .modalResults {
+            margin-top: 30px;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .resultsTitle {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .resultsList {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .resultsList li {
+            margin-bottom: 5px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .modalBody {
+                grid-template-columns: 1fr;
+            }
+
+            .modalDetails {
+                padding-right: 0;
+            }
+
+            .projectsGrid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+        }
+
+        @media (max-width: 480px) {
+            .projectsGrid {
+                grid-template-columns: 1fr;
+            }
+
+            .modalContent {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Portfolio</h1>
+            <p>Explore my recent design projects and case studies</p>
+        </div>
+
+        <div class="projectsGrid" id="projects-grid">
+            <!-- Project cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <!-- Modal Template -->
+    <div class="modalOverlay" id="project-modal">
+        <div class="modalContent">
+            <button class="closeModal" id="close-modal">&times;</button>
+            <div class="modalHeader">
+                <h2 class="modalTitle" id="modal-title">Project Title</h2>
+                <p class="modalSubtitle" id="modal-subtitle">Short Description</p>
+            </div>
+            <div class="modalBody">
+                <div class="modalGallery">
+                    <div class="modalMainImage" id="modal-main-image">
+                        <!-- Main image will be inserted here -->
+                    </div>
+                    <div class="modalThumbnails" id="modal-thumbnails">
+                        <!-- Thumbnails will be inserted here -->
+                    </div>
+                </div>
+                <div class="modalDetails">
+                    <div class="modalDescription" id="modal-description">
+                        <!-- Full description will be inserted here -->
+                    </div>
+                    <div class="modalMeta">
+                        <div class="metaItem">
+                            <span class="metaLabel">Client:</span>
+                            <span class="metaValue" id="modal-client">Client Name</span>
+                        </div>
+                        <div class="metaItem">
+                            <span class="metaLabel">Date:</span>
+                            <span class="metaValue" id="modal-date">Project Date</span>
+                        </div>
+                        <div class="metaItem">
+                            <span class="metaLabel">Duration:</span>
+                            <span class="metaValue" id="modal-duration">Project Duration</span>
+                        </div>
+                        <div class="metaItem">
+                            <span class="metaLabel">Tools:</span>
+                            <span class="metaValue" id="modal-tools">Tools Used</span>
+                        </div>
+                        <div class="metaItem">
+                            <span class="metaLabel">Website:</span>
+                            <span class="metaValue" id="modal-website">Project URL</span>
+                        </div>
+                    </div>
+                    <div class="modalTags" id="modal-tags">
+                        <!-- Tags will be inserted here -->
+                    </div>
+                    <div class="modalTestimonial" id="modal-testimonial">
+                        <!-- Testimonial will be inserted here -->
+                    </div>
+                    <div class="modalResults">
+                        <h3 class="resultsTitle">Project Results</h3>
+                        <div id="modal-results">
+                            <!-- Results will be inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Custom Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Portfolio data from the JSON
+            const portfolioData = {
+                "portfolio": {
+                    "projects": [
+                        {
+                            "id": "brand-identity-tech-startup",
+                            "category": "branding",
+                            "projectTitle": "TechFlow Brand Identity",
+                            "shortDescription": "Complete brand identity for an innovative tech startup",
+                            "fullDescription": "Developed a comprehensive brand identity system for TechFlow, a cutting-edge SaaS startup. The project included logo design, color palette development, typography selection, brand guidelines, and application across various touchpoints. The identity reflects the company's innovative approach while maintaining professionalism and trustworthiness in the competitive tech market.",
+                            "tags": ["logo design", "brand identity", "color theory", "typography", "brand guidelines", "tech branding"],
+                            "thumbnailImage": "images/techflow-thumbnail.jpg",
+                            "projectImages": [
+                                "images/techflow-logo-variations.jpg",
+                                "images/techflow-color-palette.jpg",
+                                "images/techflow-typography.jpg",
+                                "images/techflow-business-cards.jpg",
+                                "images/techflow-website-mockup.jpg"
+                            ],
+                            "projectVideos": [],
+                            "clientName": "TechFlow Inc.",
+                            "projectDate": "2024-03-15",
+                            "duration": "6 weeks",
+                            "tools": ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
+                            "projectUrl": "https://techflow.com",
+                            "featured": true,
+                            "year": 2024,
+                            "testimonial": {
+                                "quote": "The brand identity perfectly captures our innovative spirit while maintaining the professionalism we needed to attract enterprise clients.",
+                                "author": "Sarah Johnson",
+                                "position": "CEO, TechFlow Inc."
+                            },
+                            "challenges": "Creating a tech identity that stands out in a saturated market while appealing to both technical and business audiences.",
+                            "solution": "Developed a clean, modern aesthetic with subtle tech elements and a versatile color system that works across digital and print applications.",
+                            "results": "40% increase in brand recognition and 25% improvement in client engagement within 3 months of launch."
+                        },
+                        {
+                            "id": "ecommerce-website-redesign",
+                            "category": "web-design",
+                            "projectTitle": "EcoStore Website Redesign",
+                            "shortDescription": "Complete UX/UI redesign for sustainable fashion e-commerce platform",
+                            "fullDescription": "Redesigned the entire user experience for EcoStore, a sustainable fashion e-commerce platform. The project focused on improving conversion rates, enhancing the shopping experience, and better showcasing the brand's commitment to sustainability. Included user research, wireframing, prototyping, and final UI design with a mobile-first approach.",
+                            "tags": ["UI/UX design", "e-commerce", "responsive design", "user research", "prototyping", "sustainable design"],
+                            "thumbnailImage": "images/ecostore-thumbnail.jpg",
+                            "projectImages": [
+                                "images/ecostore-homepage.jpg",
+                                "images/ecostore-product-page.jpg",
+                                "images/ecostore-mobile-views.jpg",
+                                "images/ecostore-user-journey.jpg"
+                            ],
+                            "projectVideos": [
+                                "videos/ecostore-prototype-demo.mp4"
+                            ],
+                            "clientName": "EcoStore Fashion",
+                            "projectDate": "2024-01-20",
+                            "duration": "8 weeks",
+                            "tools": ["Figma", "Adobe XD", "Principle", "Miro"],
+                            "projectUrl": "https://ecostore-fashion.com",
+                            "featured": true,
+                            "status": "completed",
+                            "testimonial": {
+                                "quote": "The new design not only looks amazing but has significantly improved our conversion rates and customer satisfaction.",
+                                "author": "Mike Chen",
+                                "position": "Founder, EcoStore Fashion"
+                            },
+                            "challenges": "Balancing aesthetic appeal with functionality while maintaining fast load times and accessibility standards.",
+                            "solution": "Implemented a clean, earth-toned design system with intuitive navigation and optimized user flows for different customer segments.",
+                            "results": "35% increase in conversion rates, 50% reduction in bounce rate, and 60% improvement in mobile user engagement."
+                        },
+                        {
+                            "id": "annual-report-design",
+                            "category": "print-design",
+                            "projectTitle": "Green Energy Annual Report",
+                            "shortDescription": "Comprehensive annual report design for renewable energy company",
+                            "fullDescription": "Created a visually compelling annual report for GreenPower Solutions, showcasing their achievements, financial performance, and sustainability initiatives. The design balances corporate professionalism with environmental themes, using infographics, charts, and photography to make complex data accessible and engaging.",
+                            "tags": ["annual report", "corporate design", "infographics", "data visualization", "print design", "sustainability"],
+                            "thumbnailImage": "images/annual-report-thumbnail.jpg",
+                            "projectImages": [
+                                "images/annual-report-cover.jpg",
+                                "images/annual-report-spreads.jpg",
+                                "images/annual-report-infographics.jpg",
+                                "images/annual-report-charts.jpg"
+                            ],
+                            "projectVideos": [],
+                            "clientName": "GreenPower Solutions",
+                            "projectDate": "2023-11-10",
+                            "duration": "4 weeks",
+                            "tools": ["Adobe InDesign", "Adobe Illustrator", "Adobe Photoshop"],
+                            "projectUrl": "",
+                            "featured": false,
+                            "status": "completed",
+                            "testimonial": {
+                                "quote": "The report beautifully communicates our mission and achievements. It's become a powerful tool for investor relations.",
+                                "author": "Dr. Amanda Rodriguez",
+                                "position": "Chief Marketing Officer, GreenPower Solutions"
+                            },
+                            "challenges": "Presenting complex financial and technical data in an accessible and visually appealing way.",
+                            "solution": "Developed a cohesive design system with custom infographics and data visualizations that align with the company's green energy mission.",
+                            "results": "Positive stakeholder feedback and 20% increase in investor inquiries following report distribution."
+                        },
+                        {
+                            "id": "premium-packaging-series",
+                            "category": "packaging",
+                            "projectTitle": "Artisan Coffee Packaging Series",
+                            "shortDescription": "Premium packaging design for specialty coffee roaster's signature blends",
+                            "fullDescription": "Designed a cohesive packaging system for Roasted Perfection's premium coffee collection. The project included structural design considerations, sustainable material selection, and a visual identity that communicates quality and craftsmanship. Each blend features unique color coding while maintaining brand consistency across the product line.",
+                            "tags": ["packaging design", "product design", "sustainable packaging", "coffee branding", "premium products"],
+                            "thumbnailImage": "images/coffee-packaging-thumbnail.jpg",
+                            "projectImages": [
+                                "images/coffee-packaging-lineup.jpg",
+                                "images/coffee-packaging-detail.jpg",
+                                "images/coffee-packaging-unboxing.jpg",
+                                "images/coffee-packaging-lifestyle.jpg"
+                            ],
+                            "projectVideos": [
+                                "videos/coffee-packaging-360-view.mp4"
+                            ],
+                            "clientName": "Roasted Perfection",
+                            "projectDate": "2024-02-28",
+                            "duration": "5 weeks",
+                            "tools": ["Adobe Illustrator", "Adobe Photoshop", "KeyShot"],
+                            "projectUrl": "https://roastedperfection.com",
+                            "featured": true,
+                            "status": "completed",
+                            "testimonial": {
+                                "quote": "The packaging design has elevated our brand perception and helped us command premium pricing in the market.",
+                                "author": "Carlos Martinez",
+                                "position": "Owner, Roasted Perfection"
+                            },
+                            "challenges": "Creating packaging that protects the product while being environmentally sustainable and visually striking on shelves.",
+                            "solution": "Developed a modular design system using recyclable materials with a sophisticated color palette and tactile finishes.",
+                            "results": "25% increase in retail sales and expanded distribution to premium grocery chains."
+                        },
+                        {
+                            "id": "editorial-illustration-series",
+                            "category": "illustration",
+                            "projectTitle": "Future of Work Editorial Series",
+                            "shortDescription": "Custom illustrations for magazine articles about remote work trends",
+                            "fullDescription": "Created a series of editorial illustrations for Business Forward magazine's special issue on the future of work. The illustrations explore themes of remote work, digital collaboration, work-life balance, and emerging workplace technologies. Each piece uses a consistent visual language while addressing specific article topics.",
+                            "tags": ["editorial illustration", "digital art", "conceptual design", "magazine design", "future themes"],
+                            "thumbnailImage": "images/editorial-illustration-thumbnail.jpg",
+                            "projectImages": [
+                                "images/remote-work-illustration.jpg",
+                                "images/digital-collaboration-illustration.jpg",
+                                "images/work-life-balance-illustration.jpg",
+                                "images/ai-workplace-illustration.jpg"
+                            ],
+                            "projectVideos": [
+                                "videos/illustration-process-timelapse.mp4"
+                            ],
+                            "clientName": "Business Forward Magazine",
+                            "projectDate": "2024-04-05",
+                            "duration": "3 weeks",
+                            "tools": ["Adobe Illustrator", "Procreate", "Adobe Photoshop"],
+                            "projectUrl": "",
+                            "featured": false,
+                            "status": "completed",
+                            "testimonial": {
+                                "quote": "The illustrations perfectly capture the complex themes of our articles and have received excellent reader feedback.",
+                                "author": "Jennifer Liu",
+                                "position": "Art Director, Business Forward Magazine"
+                            },
+                            "challenges": "Visualizing abstract concepts related to future work trends in an engaging and accessible way.",
+                            "solution": "Developed a contemporary illustration style that balances human elements with technological themes using a cohesive color palette.",
+                            "results": "Featured article series achieved 40% higher engagement than average magazine content."
+                        },
+                        {
+                            "id": "product-launch-animation",
+                            "category": "motion-graphics",
+                            "projectTitle": "SmartHome Product Launch Animation",
+                            "shortDescription": "Animated explainer video showcasing innovative smart home technology",
+                            "fullDescription": "Produced a comprehensive motion graphics piece for the launch of InnovateTech's new smart home system. The animation explains complex IoT technology through engaging visuals, smooth transitions, and clear messaging. Includes product demonstrations, feature highlights, and lifestyle integration scenarios.",
+                            "tags": ["motion graphics", "product animation", "explainer video", "IoT visualization", "tech animation"],
+                            "thumbnailImage": "images/smarthome-animation-thumbnail.jpg",
+                            "projectImages": [
+                                "images/smarthome-storyboard.jpg",
+                                "images/smarthome-style-frames.jpg",
+                                "images/smarthome-character-design.jpg"
+                            ],
+                            "projectVideos": [
+                                "videos/smarthome-final-animation.mp4",
+                                "videos/smarthome-behind-scenes.mp4"
+                            ],
+                            "clientName": "InnovateTech Solutions",
+                            "projectDate": "2024-05-12",
+                            "duration": "7 weeks",
+                            "tools": ["After Effects", "Cinema 4D", "Adobe Illustrator", "Premiere Pro"],
+                            "projectUrl": "https://innovatetech-solutions.com",
+                            "featured": true,
+                            "status": "completed",
+                            "testimonial": {
+                                "quote": "The animation helped us explain our complex product in a simple, engaging way that resonated with our target audience.",
+                                "author": "David Park",
+                                "position": "Product Marketing Manager, InnovateTech Solutions"
+                            },
+                            "challenges": "Simplifying complex IoT technology concepts while maintaining technical accuracy and visual appeal.",
+                            "solution": "Created a clean, modern animation style with intuitive visual metaphors and smooth transitions to guide viewers through the product ecosystem.",
+                            "results": "Video achieved 2M+ views across platforms and contributed to 150% increase in pre-orders during launch period."
+                        }
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "branding",
+                        "name": "Brand Identity",
+                        "description": "Logo design, brand guidelines, and complete visual identity systems",
+                        "icon": "🎨",
+                        "color": "#667eea"
+                    },
+                    {
+                        "id": "web-design",
+                        "name": "Web Design",
+                        "description": "UI/UX design, responsive websites, and digital experiences",
+                        "icon": "💻",
+                        "color": "#764ba2"
+                    },
+                    {
+                        "id": "print-design",
+                        "name": "Print Design",
+                        "description": "Brochures, reports, marketing materials, and print publications",
+                        "icon": "📄",
+                        "color": "#ff6b6b"
+                    },
+                    {
+                        "id": "packaging",
+                        "name": "Packaging Design",
+                        "description": "Product packaging, structural design, and retail solutions",
+                        "icon": "📦",
+                        "color": "#ee5a24"
+                    },
+                    {
+                        "id": "illustration",
+                        "name": "Illustration",
+                        "description": "Custom illustrations, digital art, and conceptual designs",
+                        "icon": "🖼️",
+                        "color": "#5f27cd"
+                    },
+                    {
+                        "id": "motion-graphics",
+                        "name": "Motion Graphics",
+                        "description": "Animation, explainer videos, and motion design",
+                        "icon": "🎬",
+                        "color": "#00d2d3"
+                    }
+                ],
+                "skills": [
+                    "Adobe Creative Suite",
+                    "Figma",
+                    "Sketch",
+                    "UI/UX Design",
+                    "Brand Identity",
+                    "Typography",
+                    "Color Theory",
+                    "Logo Design",
+                    "Web Design",
+                    "Print Design",
+                    "Packaging Design",
+                    "Illustration",
+                    "Motion Graphics",
+                    "After Effects",
+                    "Cinema 4D",
+                    "Prototyping",
+                    "User Research",
+                    "Design Systems",
+                    "Responsive Design",
+                    "Accessibility"
+                ]
+            };
+
+            // Function to create project cards
+            function createProjectCards() {
+                const projectsGrid = $('#projects-grid');
+                projectsGrid.empty();
+
+                portfolioData.portfolio.projects.forEach(project => {
+                    // Find category details
+                    const category = portfolioData.categories.find(cat => cat.id === project.category);
+                    
+                    // Create card HTML
+                    const cardHtml = `
+                        <div class="projectCard" data-project-id="${project.id}">
+                            ${project.featured ? '<span class="featuredTag">Featured</span>' : ''}
+                            <div class="cardImage">
+                                <img src="${project.thumbnailImage}" alt="${project.projectTitle}">
+                            </div>
+                            <div class="cardContent">
+                                <h3 class="cardTitle">${project.projectTitle}</h3>
+                                <p class="cardDescription">${project.shortDescription}</p>
+                                <div class="cardMeta">
+                                    <span class="cardCategory" style="background-color: ${category.color}20; color: ${category.color}">
+                                        ${category.name}
+                                    </span>
+                                    <span class="cardDate">${project.projectDate}</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    projectsGrid.append(cardHtml);
+                });
+
+                // Add click event to cards
+                $('.projectCard').on('click', function() {
+                    const projectId = $(this).data('project-id');
+                    openProjectModal(projectId);
+                });
+            }
+
+            // Function to open project modal
+            function openProjectModal(projectId) {
+                const project = portfolioData.portfolio.projects.find(p => p.id === projectId);
+                const category = portfolioData.categories.find(cat => cat.id === project.category);
+
+                // Set basic info
+                $('#modal-title').text(project.projectTitle);
+                $('#modal-subtitle').text(project.shortDescription);
+                $('#modal-description').html(`<p>${project.fullDescription}</p>
+                    ${project.challenges ? `<h3>Challenges</h3><p>${project.challenges}</p>` : ''}
+                    ${project.solution ? `<h3>Solution</h3><p>${project.solution}</p>` : ''}`);
+                
+                // Set meta info
+                $('#modal-client').text(project.clientName);
+                $('#modal-date').text(project.projectDate);
+                $('#modal-duration').text(project.duration);
+                $('#modal-tools').text(project.tools.join(', '));
+                $('#modal-website').html(project.projectUrl ? `<a href="${project.projectUrl}" target="_blank">Visit Website</a>` : 'N/A');
+                
+                // Set tags
+                const tagsContainer = $('#modal-tags');
+                tagsContainer.empty();
+                project.tags.forEach(tag => {
+                    tagsContainer.append(`<span class="modalTag">${tag}</span>`);
+                });
+
+                // Set testimonial
+                const testimonialContainer = $('#modal-testimonial');
+                if (project.testimonial) {
+                    testimonialContainer.html(`
+                        <div class="testimonialQuote">"${project.testimonial.quote}"</div>
+                        <div class="testimonialAuthor">${project.testimonial.author}</div>
+                        <div class="testimonialPosition">${project.testimonial.position}</div>
+                    `);
+                } else {
+                    testimonialContainer.html('<p>No testimonial available</p>');
+                }
+
+                // Set results
+                const resultsContainer = $('#modal-results');
+                resultsContainer.html(`<p>${project.results}</p>`);
+
+                // Set images
+                const mainImageContainer = $('#modal-main-image');
+                const thumbnailsContainer = $('#modal-thumbnails');
+                
+                mainImageContainer.empty();
+                thumbnailsContainer.empty();
+                
+                if (project.projectImages.length > 0) {
+                    // Set main image to first image
+                    mainImageContainer.html(`<img src="${project.projectImages[0]}" alt="${project.projectTitle}">`);
+                    
+                    // Create thumbnails
+                    project.projectImages.forEach((image, index) => {
+                        const thumbnail = $(`<div class="modalThumbnail ${index === 0 ? 'active' : ''}">
+                            <img src="${image}" alt="Thumbnail ${index + 1}">
+                        </div>`);
+                        
+                        thumbnail.on('click', function() {
+                            // Update main image
+                            mainImageContainer.html(`<img src="${image}" alt="${project.projectTitle}">`);
+                            
+                            // Update active thumbnail
+                            $('.modalThumbnail').removeClass('active');
+                            $(this).addClass('active');
+                        });
+                        
+                        thumbnailsContainer.append(thumbnail);
+                    });
+                } else {
+                    mainImageContainer.html('<p>No images available</p>');
+                }
+
+                // Show modal
+                $('#project-modal').addClass('active');
+                $('body').css('overflow', 'hidden');
+            }
+
+            // Close modal
+            $('#close-modal').on('click', function() {
+                $('#project-modal').removeClass('active');
+                $('body').css('overflow', 'auto');
+            });
+
+            // Close modal when clicking outside content
+            $('#project-modal').on('click', function(e) {
+                if ($(e.target).hasClass('modalOverlay')) {
+                    $('#project-modal').removeClass('active');
+                    $('body').css('overflow', 'auto');
+                }
+            });
+
+            // Initialize the page
+            createProjectCards();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="icon" href="images/resume-ico.ico">
+    <link rel="stylesheet" href="google-fonts.css">
+    <style>
+        :root{
+            --a4-width: 2480px;
+            --a4-height: 3508px;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            padding: 70px;
+        }
+        section{
+            display: flex;
+            min-width: calc(var(--a4-width)/2.5);
+            width: calc(var(--a4-width)/2.5);
+            min-height: calc(var(--a4-height)/2.5);
+            height: calc(var(--a4-height)/2.5);
+        }
+        .Resume{
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            gap: 60px;
+        }
+        .Resume:nth-child(1){
+            flex-basis: 35%;
+            background-color: #dbdbdb;
+            color: black;
+        }
+        .Resume:nth-child(2){
+            flex-basis: 65%;
+            background-color: #fff;
+            color: black;
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            min-height: 130px;
+        }
+        .header h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+        }
+        .header h1 span{
+            color: #1444ac;
+        }
+        .header p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #3a3a3a;
+        }
+        .lInfo, .rInfo{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .lInfo h2, .rInfo h2{
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 20px;
+        }
+        .lInfo p, .rInfo p, .lInfo div, .rInfo div, .lInfo li, .rInfo li{
+            font-family: 'Poppins', sans-serif;
+            list-style: none;
+        }
+        .contact div{
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .iconContainer{
+            width: 16px;
+        }
+        .icon{
+            color: #1444ac;
+            width: 16px;
+            margin-top: 7px;
+        }
+        .Year{
+            min-width: fit-content;
+            width: fit-content;
+
+            padding: 2px 6px;
+            background-color: #1444ac;
+            color: white;
+            border-radius: 6px;
+        }
+        .Degree{
+            font-weight: bold;
+        }
+        .experienceTop{
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+        .experienceRole{
+            color: grey;
+        }
+        .skills ul{
+            display: flex; 
+            flex-wrap: wrap;
+            gap: 10px 20px;
+        }
+        .skills ul li{
+            background-color: #bfbfbf;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+
+        .Hobbies ul{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px 50px;
+        }
+        .Hobbies ul li{
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .Hobbies ul li::before{
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: #1444ac;
+            border-radius: 50%;
+        }
+    
+    
+    </style>
+</head>
+<body>
+    <section>
+        <div class="Resume resumeLeft">
+            <div class="header"></div>
+            <div class="lInfo contact">
+                <h2>Contact</h2>
+                <div>
+                    <span class="iconContainer"><img src="images/call-icon.svg" alt="" class="svg icon"></span> <p>+234 70-6774-0080</p>
+                </div>
+                <div><span class="iconContainer">
+                    <img src="images/mail-icon.svg" alt="" class="svg icon"></span> <a href="mailto:">machino11.m11@gmail.com</a>
+                </div>
+                <div>
+                    <span class="iconContainer"><img src="images/home-icon2.svg" alt="" class="svg icon"></span><p>No 9 Ukuwere Street New Layout, Ekpan Warri, Delta State, Nigeria</p>
+                </div>
+
+            </div>
+            <div class="lInfo Education">
+                <h2>Education</h2>
+                <div class="Year">Present</div>
+                <div class="Degree">Diploma in Software Engineering</div>
+                <div class="educationName">National Institute of Information and Technology (NIIT)</div>
+            </div>
+            <div class="lInfo skills">
+                <h2>Skills </h2>
+                <ul>
+                    <li>Corel Draw</li>
+                    <li>Adobe Illustrator</li>
+                    <li>UIUX Design</li>
+                    <li>Logo Design</li>
+                    <li>Blender 3D</li>
+                    <li>Motion Graphics</li>
+                    <li>3d Animation</li>
+                    <li>Print design</li>
+                </ul>
+            </div>
+        </div>
+        <div class="Resume resumeRight">
+            <div class="header">
+                <h1>Michael <span>Damilola</span></h1>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="rInfo aboutMe">
+                <h2>About</h2>
+                <p>Skilled Graphics Designer with a passion for creating bold, effective, and visually engaging designs. Seeking an opportunity to apply my creative vision and technical skills to deliver standout branding, print, and digital solutions.</p>
+            </div>
+
+            <div class="rInfo Experience">
+                <h2>Experience</h2>
+                <div class="experienceTop">
+                    <div class="Year">2021-2022</div>
+                    <div class="experienceName">
+                        <span class="companyName">RULDEF Computers</span> |
+                        <span class="experienceRole">Computer Operator/Graphics Designer</span>
+                    </div>
+                </div>
+                <div class="experienceDescription">
+                    Collaborated with clients to create visually appealing designs and provided technical support and conducted training sessions on graphic design software and best practices.
+                </div>
+            </div>
+
+            <div class="rInfo Hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Gaming</li>
+                    <li>3d Modelling</li>
+                    <li>Coding</li>
+                    <li>Sketching</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="jQueryv3.7.1.js"></script>
+    <script src="embed-svg.js"></script>
+
+</body>
+</html>

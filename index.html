@@ -1,150 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amodu Damilola Portfolio</title>
-    <link rel="stylesheet" href="CSS/Home.css">
-    <link rel="stylesheet" href="CSS/Home_900px.css">
-    <link rel="icon" href="Images/Favicon.ico">
-    <link rel="stylesheet" href="fontawesome-6.1.2/css/all.css">
+    <title>Damilola Portfolio</title>
+    <link rel="icon" href="images/Portfolio-Ico.ico">
+    <link rel="stylesheet" href="css/google-fonts.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../../E-Commerce/E-commerce_Website/fontawesome-pro-6.5.0-web/css/all.css">
+    <script src="/js/jQueryv3.7.1.js"></script>
 </head>
-<body class="lock-scroll">
-    <section class="fSection">
-        <div class="VideoScaler">
-            <video id="background-video" autoplay muted loop>
-                <source src="Video/RubiksCube.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <nav>
-            <img src="Images/MACHINO11_LogoIconSmall.png" alt="">
-            <ul>
-                <li><a href="Pages/Portfolio">Go to Portfolio</a></li>
-                <li><a href="Pages/Disclosure">Disclosure</a></li>
-            </ul>
-        </nav>
-        <div class="content">
-                <h2 class="greeting" id="hi-greeting">
-                    Hi,
-                </h2>
-            <div class="nameBox">
-                <h2 class="name" id="MyName">I'M DAMI</h2>
-            </div>
-            <div class="subText">
-                <ul>
-                    <li class="same"><a href="Pages/Portfolio.html">Explore my Portfolio</a></li>
-                    <li class="same"><a href="">Connect with me</a></li>
-                    <li class="odd">You can Explore more about my Portfolio Here, More about me below</li>
-                </ul>
-            </div>
-        </div>
-        <div class="socials">
-            <ul>
-                <li class="socialsLogo"><a href="https://www.instagram.com/i_am_machino.11" target="_blank"><img class="IG" src="Images/IG.png" alt=""></a></li>
-                <li class="socialsLogo"><a href="https://www.linkedin.com/in/machino11" target="_blank"><img class=" LinkedIn" src="Images/LinkedIn.png" alt=""></a></li>
-                <li class="socialsLogo"><a href="https://www.artstation.com/machino11" target="_blank"><img class="ArtStation" src="Images/ArtStation.png" alt=""></a></li>
-            </ul>
-        </div>
-
-    </section>
-    
-    <section class="ssndSection">
-        <div class="SndSectCntTop">
-            
-            <div class="TpSndSectCnt aboutMe">
-                <p>
-                    <div class="myPic">
-                        <img class = "myPic" src="Images/MACHINO11_LogoIcon.png" alt="">
-                    </div>
-                    <h2>Hi! I'm Damilola</h2>
-                    and I'm here to bring your creative visions to life. As a skilled Graphics Designer and 3D Artist, I specialize in Graphic Design, Logo Design, 3D Modeling, and 3D Animation. With a passion for crafting visually stunning and engaging designs, I thrive on projects that inspire and captivate audiences.<br>
-
-                    What sets me apart is not just my technical expertise, but also my dedication to problem-solving and effective communication. Whether it's sketching out ideas or diving into intricate 3D models <br>
-
-                    I'm particularly drawn to short-term projects where I can lend my expertise to create impactful designs efficiently. With the ability to work independently and meet tight deadlines, I'm committed to bringing your project to life on time and on budget.<br>
-
-                    Outside of work, you can often find me sketching or creating arts, fueling my passion for creativity in every aspect of my life. <br>
-
-                    If you're looking for a reliable and talented designer to collaborate with, look no further. Let's turn your ideas into reality together!
-
-                </p>
-            </div>
-        </div>
-        <div class="SndSectCntBtm">
-            <div class="gridAlign">
-                <div class="tools">
-                    <h2 class="toolsTxt">Tools</h2>
-                    <div class="tool">
-                        <img class="toolsIcon" src="Images/Blender_Icon.png" alt="">
-                        <div class="description-box">Blender3d</div>
-                    </div>
-                    <div class="tool">
-                        <img class="toolsIcon" src="Images/PhotoShop_Icon.png" alt="">
-                        <div class="description-box">Photoshop</div>
-                    </div>
-                    <div class="tool">
-                        <img class="toolsIcon" src="Images/Illustrator_Icon.png" alt="">
-                        <div class="description-box">Illustrator</div>
-                    </div>
-                    <div class="tool">
-                        <img class="toolsIcon" src="Images/Cdr_Icon.png" alt="">
-                        <div class="description-box">Corel Draw</div>
-                    </div>
+<body>
+    <nav>
+        <h2>Dami</h2>
+        <ul>
+            <li><a href="#hero-section" class="smoothScroll nav-link" id="home-link">Home</a></li>
+            <li><a href="#project-section" class="smoothScroll nav-link" id="project-link">Projects</a></li>
+            <li class="nav-link" id="about-link">About Me</li>
+            <li class="nav-link" id="contact-link">Contact</li>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </ul>
+        <button class="hamMenu">≡</button>
+    </nav>
+    <section id="home-section">
+        <section class="heroSection" id="hero-section">
+            <div class="heroLeft">
+                <h1>Hi, I'm <span>Damilola</span></h1>
+                <h2>Graphic <span>Designer</span></h2>
+                <p>I’m passionate about designing clean, simple visuals that are easy to understand and look great—whether it’s a flyer, logo, or social media post</p>
+                <div class="CTAButtons">
+                    <a href="resume.html" class="buttonStyle1"><span>VIEW MY RESUME</span></a>
+                    <a href="#project-section" class="buttonStyle2 smoothScroll">VIEW MY WORK</a>
                 </div>
-                
-                <div class="experience">
-                    <h2 class="experienceTxtNo">3</h2>
-                    <p class="experienceTxtYrs">YEARS<br>
-                    EXPERIENCE</p>
+                <div class="socialsLink">
+                    <a href="https://machino11.artstation.com/" target="_blank"><img src="images/art-station.svg" alt="" class="svg socialIcon"></a>
+                    <a href="https://www.linkedin.com/in/machino11" target="_blank"><img src="images/linked-in-icon.svg" alt="" class="svg socialIcon"></a>
+                    <a href="https://www.instagram.com/i_am_machino.11/" target="_blank"><img src="images/instagram-icon.svg" alt="" class="svg socialIcon"></a>
                 </div>
             </div>
-            <div class="creativeJourney">
-                <h2 class="creativeJourneyTxt">
-                    MY CREATIVE JOURNEY
-                </h2>
-                <img class= "CJImg" src="Images/Keyboard.jpg" alt="">
-                <div class="CJmoreAboutMe">
-                    <p>
-                        It all started when I was just a kid, barely 9 years old, armed with nothing but my dad's old laptop and a spark of curiosity. I tinkered away on MS Paint, experimenting with shapes and colors, completely unaware that I was laying the foundation for my future career.
-                        <br>
-                        At the tender age of 11, I stumbled upon CorelDRAW, and that's when the magic truly began. It was like discovering a whole new universe of possibilities right at my fingertips. I poured hours into honing my craft, mastering every tool and technique until I could wield them with finesse.
-                        <br>
-                        By the time I turned 14, I was already a maestro in CorelDRAW. But I craved more. I yearned to push the boundaries of my creativity further. So, I dived headfirst into the vast ocean of Photoshop and Illustrator, watching tutorials on YouTube like a hungry artist in search of inspiration.
-                        <br>
-                        Fast forward to my 17th year, bought with a new laptop and an insatiable hunger for knowledge, I embarked on yet another adventure – the world of 3D design in Blender3D. With each tutorial watched and course completed, I felt myself growing not just as a designer but as a creator.
-                        <br>
-                        And here I am today, at 18, with two years of professional experience under my belt, eager to take on the world of graphic design and 3D with even more gusto. My journey has been filled with twists and turns, challenges and triumphs, but through it all, one thing remains constant – my unwavering passion for creativity.
+            <div class="heroRight">
+                <div class="pulse">
+                    <img src="images/distort.svg" alt="" class="svg pulses" style="--i:0 ;">
+                    <img src="images/distort.svg" alt="" class="svg pulses" style="--i:1 ;">
+                    <img src="images/distort.svg" alt="" class="svg pulses" style="--i:2 ;">
+                    <img src="images/distort.svg" alt="" class="svg pulses" style="--i:3 ;">
+                    <img src="images/distort.svg" alt="" class="svg pulses" style="--i:4 ;">
+                </div>
+                <div class="pfp">
+                    <img src="images/Dami1.jpg" alt="">
+                </div>
+              </div>
+        </section>
+        <section class="projectsSection" id="project-section">
+            <h1>My <span>Projects</span></h1>
+
+            <div class="projectsContainer">
+                <!-- PROJECTS WILL BE ADDED HERE DYNAMICALLY -->
+            </div>
+            <div class="projectInfoModal" id="project-info-modal">
+                <div class="projectInfoContainer" id="project-info-container">
+                    <div class="projectInfoHeader" id="project-info-header">
+                        <button id="close-project-info-modal">✕</button>
+                        <h2 id="project-title">Project Title</h2>
+                        <p id="project-short-descrp">Project Short Description</p>
+                    </div>
+                    <div class="projectInfoContent">
+                        <div class="left">
+                            <div class="projectImgsAndVids">
+                                <img src="images/no-image.svg" alt="" id="display-image">
+                                <div class="thumbnailWrapper">
+                                    <img src="images/no-image.svg" alt="" class="active thumbnailImgs">
+                                    <img src="images/no-image.svg" alt="" class="thumbnailImgs">
+                                    <img src="images/no-image.svg" alt="" class="thumbnailImgs">
+                                    <img src="images/no-image.svg" alt="" class="thumbnailImgs">
+                                </div>
+                            </div>
+
+                            <div class="projectDescription">
+                                <h2>Description</h2>
+                                <p id="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nulla, cupiditate sed adipisci tempore dignissimos ducimus ut repellendus laudantium iusto consectetur sunt dolorem animi impedit quas quia nemo! Dignissimos, labore.</p>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="projectChallenges">
+                                <h2>Challenges</h2>
+                                <p id="project-challenges">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nulla, cupiditate sed adipisci tempore dignissimos ducimus ut repellendus laudantium iusto consectetur sunt dolorem animi impedit quas quia nemo! Dignissimos, labore.</p>
+                            </div>
+                            
+                            <div class="projectSolutions">
+                                <h2>Solutions</h2>
+                                <p id="project-solutions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nulla, cupiditate sed adipisci tempore dignissimos ducimus ut repellendus laudantium iusto consectetur sunt dolorem animi impedit quas quia nemo! Dignissimos, labore.</p>
+                            </div>
+
+                            <div class="projectMetaInfo">
+                                <div class="client"><h3>Client:</h3><span id="client-name">EcoStore Fashion</span></div>
+                                <div class="projectDate"><h3>Date:</h3><span id="project-date">2024-06-04</span></div>
+                                <div class="projectDuration"><h3>Duration:</h3><span id="project-duration">3 days</span></div>
+                                <div class="projectTools"><h3>Tools:</h3><span id="project-tools">Corel Draw, Illustrator, Sample-1, Sample-2, Sample-3</span></div>
+                                <div class="projectUrl"><h3>Website:</h3><a href="" id="project-url">Visit Website</a></div>
+                                <div class="projectTags"><h3>Tags:</h3>
+                                    <ul id="project-tags">
+                                        <li>prototyping</li>
+                                        <li>responsive design</li>
+                                        <li>user research</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="projectTestimonials">
+                                <p id="testimonal-quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, numquam?</p>
+                                <h3 id="testimonial-author">Mark King</h3>
+                                <span id="testimonial-position">Founder, EcoStore Fashion</span>
+                            </div>
+
+                            <div class="projectResult">
+                                <h2>Project Results</h2>
+                                <p id="project-result">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt iure, eius voluptatem voluptates fugit accusantium?</p>
+                            </div>
+                        </div>
                         
-                    </p>
-                    <pre></pre>
+
+                        
+                    </div>
                 </div>
             </div>
-            
-        </div>
+    </section>
+
+    
 
     </section>
-    <script src="JS/Home.js"></script>
-    <footer>
-        <div class="footer-content">
-          <div class="info contact-info">
-            <ul>
-                <li>Email: <a href="mailto:machino11.m11@gmail.com">machino11.m11@gmail.com</a> </li>
-                <li>Phone: <a href="tel:+2347067740080">+234 70-6774-0080</li>
-            </ul>
-
-          </div>
-          <div class="info social-media">
-            <li> <a href="https://www.instagram.com/i_am_machino.11" target="_blank">Instagram</a></li>
-            <li><a href="https://x.com/IAmMachino11" target="_blank">Twitter</a></li>
-            <li><a href="https://www.artstation.com/machino11" target="_blank">ArtStation</a></li>
-          </div>
-          <div class="info footer-navigation">
-            <li><a href="https://www.upwork.com/freelancers/samuelm178?mp_source=share" target="_blank">Upwork</a></li>
-            <li><a href="https://www.linkedin.com/in/machino11" target="_blank"">LinkedIn</a></li>
-          </div>
+    <section class="aboutSection" id="about-section">
+        <div class="aboutSectionHeader">
+            <div class="aboutHeaderLeft">
+                <h2>Michael Damilola</h2>
+                <p>Graphic Designer</p>
+            </div>
+            <a href="mailto:machino11.m11@gmail.com">machino11.m11@gmail.com</a>
         </div>
-      </footer>
-      
+
+        <div class="aboutBody">
+            <div class="aboutImgcontainer">
+                <img src="images/Dami2.jpg" alt="">
+            </div>
+            <div class="aboutMe">
+                <h1>Hi, I'm Dami 👋🏽</h1>
+                <p>Hi, I'm Amodu Damilola, and i am a front-end developer based in Warri, Delta State, Nigeria. I’m currently studying Software Engineering at NIIT to improve my skills. Before this, I worked at Ruldef Computers (2020–2022) as a Computer Operator and Graphics Designer.</p>
+
+                <p>I create visual designs that speak for brands—logos, flyers, social media graphics, and more. I mostly work with CorelDRAW, Photoshop, and Illustrator, and I enjoy turning simple ideas into designs that grab attention and feel professional. Whether it’s for print or digital, I always aim for clean, well-balanced visuals that reflect the message behind them. Although i am not currently looking for a full-time role in graphics design, but I’m also open to freelance work if the project feels like a good fit</p>
+
+                <p>Check out my work in the <a id="project-link-2" href="#project-section">Projects</a> section – I’ve shared a few designs I created while learning and growing. Let’s connect if you’d like to collaborate!</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="contactMe" id="contact-section">
+        <h1>CONTACT</h1>
+        <div class="contactInfoContainer">
+            <div class="contactInfo">
+                <img src="images/phone-icon.svg" alt="" class="svg contactIcon">
+                <p>+234 70-6774-0080</p>
+                <span>Phone-no/WhatsApp</span>
+            </div>
+            <div class="contactInfo">
+                <img src="images/WhatsApp-QR-Code.svg" alt=""class="svg QRcode">
+                <span><img src="images/WhatsApp-Icon.svg" alt="" class="svg icon"> QR code</span>
+            </div>
+            <div class="contactInfo">
+                <img src="images/mail-icon.svg" alt="" class="svg contactIcon">
+                <a href="mailto:machino11.m11@gmail.com">machino11.m11@gmail.com</a>
+            </div>
+        </div>
+    </section>
+    <div class="testColor">
+        HEy now
+    </div>
+    <script src="js/embed-svg.js"></script>
+    <script src="js/index.js"></script>
 </body>
-</html> 
+</html>
