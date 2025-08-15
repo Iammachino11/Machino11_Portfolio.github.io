@@ -592,6 +592,7 @@ input:checked~.lightThemeImg{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -602,6 +603,7 @@ input:checked~.lightThemeImg{
     width: 100%;
     margin-top: 10px;
 }
+
 
 .projectInfoModal{
     position: fixed;
@@ -674,16 +676,17 @@ input:checked~.lightThemeImg{
 }
 
 .projectImgsAndVids{
-    /* width: 40%; */
+    position: relative;
 }
 
 .projectImgsAndVids>img,
 .projectImgsAndVids video{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
 }
+
 /* Prevent image/video downloading and copying */
 .projectImgsAndVids img,
 .projectImgsAndVids video,

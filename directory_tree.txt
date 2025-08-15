@@ -1,0 +1,233 @@
+Machino11_Portfolio.github.io
+├── README.md
+├── css
+│   ├── google-fonts.css
+│   └── index.css
+├── directory_tree.txt
+├── images
+│   ├── DB-icon.svg
+│   ├── Dami1.jpg
+│   ├── Dami2.jpg
+│   ├── Git-Icon.svg
+│   ├── GitHub.svg
+│   ├── GitHub2.svg
+│   ├── JS-icon.svg
+│   ├── Java-icon.svg
+│   ├── Portfolio-Ico.ico
+│   ├── React-icon.svg
+│   ├── WhatsApp-Icon.svg
+│   ├── WhatsApp-QR-Code.svg
+│   ├── art-station.svg
+│   ├── call-icon.svg
+│   ├── css-Icon.svg
+│   ├── dark-theme-icon.svg
+│   ├── distort.svg
+│   ├── go-to-page-icon.svg
+│   ├── home-icon.svg
+│   ├── home-icon2.svg
+│   ├── html-icon.svg
+│   ├── instagram-icon.svg
+│   ├── jQuery-icon.svg
+│   ├── light-theme-icon.svg
+│   ├── linked-in-icon.svg
+│   ├── mail-icon.svg
+│   ├── no-image.svg
+│   ├── phone-icon.svg
+│   ├── php-icon.svg
+│   ├── projectImgThumbnails
+│   │   ├── project-1.jpg
+│   │   └── project-2.jpg
+│   ├── resume-ico.ico
+│   ├── twitter-icon.svg
+│   └── typeScript-Icon.svg
+├── index.html
+├── js
+│   ├── database.json
+│   ├── embed-svg.js
+│   ├── index.js
+│   └── jQueryv3.7.1.js
+├── portfolio
+│   ├── 3d-rendering
+│   │   ├── animations
+│   │   │   ├── motion-graphics
+│   │   │   │   └── glass-rubiks-cube
+│   │   │   │       ├── thumb
+│   │   │   │       │   └── image-1.jpg
+│   │   │   │       └── video-1.mp4
+│   │   │   └── regular-animations
+│   │   │       └── bi-plane
+│   │   │           ├── thumb
+│   │   │           │   └── image-1.jpg
+│   │   │           └── video-1.mp4
+│   │   ├── collection-1
+│   │   │   ├── image-1.png
+│   │   │   ├── image-2.png
+│   │   │   ├── image-3.png
+│   │   │   ├── image-4.png
+│   │   │   ├── image-5.png
+│   │   │   └── thumb
+│   │   │       ├── image-1.png
+│   │   │       ├── image-2.png
+│   │   │       ├── image-3.png
+│   │   │       ├── image-4.png
+│   │   │       └── image-5.jpg
+│   │   ├── collection-2
+│   │   │   ├── image-1.png
+│   │   │   ├── image-2.png
+│   │   │   ├── image-3.png
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       ├── image-2.jpg
+│   │   │       └── image-3.jpg
+│   │   ├── collection-3
+│   │   │   ├── image-1.png
+│   │   │   ├── image-2.png
+│   │   │   ├── image-3.png
+│   │   │   ├── image-4.png
+│   │   │   ├── image-5.png
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       ├── image-2.jpg
+│   │   │       ├── image-3.jpg
+│   │   │       ├── image-4.jpg
+│   │   │       └── image-5.jpg
+│   │   ├── concept-car
+│   │   │   ├── image-1.png
+│   │   │   ├── image-2.png
+│   │   │   ├── image-3.png
+│   │   │   ├── image-4.png
+│   │   │   ├── image-5.png
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       ├── image-2.jpg
+│   │   │       ├── image-3.jpg
+│   │   │       ├── image-4.jpg
+│   │   │       └── image-5.jpg
+│   │   └── gaming-setup
+│   │       ├── image-1.png
+│   │       ├── image-2.png
+│   │       ├── image-3.png
+│   │       └── thumb
+│   │           ├── image-1.png
+│   │           ├── image-2.png
+│   │           └── image-3.png
+│   ├── banners
+│   │   └── remote-dev-skillup
+│   │       ├── image-1.jpg
+│   │       └── thumb
+│   │           └── image-1.jpg
+│   ├── flyers
+│   │   ├── IELTS
+│   │   │   ├── image-1.jpg
+│   │   │   └── thumb
+│   │   │       └── image-1.jpg
+│   │   ├── bite-bliss
+│   │   │   ├── image-1.jpg
+│   │   │   └── thumb
+│   │   │       └── image-1.jpg
+│   │   ├── kings-podcast
+│   │   │   ├── image-1.jpg
+│   │   │   └── thumb
+│   │   │       └── image-1.jpg
+│   │   ├── novar-lynk
+│   │   │   ├── image-1.jpg
+│   │   │   └── thumb
+│   │   │       └── image-1.jpg
+│   │   ├── perfect-b4l
+│   │   │   ├── image-1.jpg
+│   │   │   └── thumb
+│   │   │       └── image-1.jpg
+│   │   └── sniper-kings
+│   │       ├── image-1.jpg
+│   │       └── thumb
+│   │           └── image-1.jpg
+│   ├── illustrations
+│   │   └── bull-vs-bear
+│   │       ├── image-1.png
+│   │       └── thumb
+│   │           └── image-1.jpg
+│   ├── logo-design
+│   │   ├── donna-construction
+│   │   │   ├── image-1.jpg
+│   │   │   ├── image-2.jpg
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       └── image-2.jpg
+│   │   ├── ilumin8
+│   │   │   ├── image-1.jpg
+│   │   │   └── thumb
+│   │   │       └── image-1.jpg
+│   │   ├── jah-up
+│   │   │   ├── image-1.jpg
+│   │   │   ├── image-2.jpg
+│   │   │   ├── image-3.jpg
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       ├── image-2.jpg
+│   │   │       └── image-3.jpg
+│   │   ├── king-podcast
+│   │   │   ├── image-1.jpg
+│   │   │   ├── image-2.jpg
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       └── image-2.jpg
+│   │   ├── machino-11
+│   │   │   ├── image-1.jpg
+│   │   │   └── thumb
+│   │   │       └── image-1.jpg
+│   │   ├── novar-lynk
+│   │   │   ├── image-1.jpg
+│   │   │   ├── image-2.jpg
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       └── image-2.jpg
+│   │   ├── personal
+│   │   │   ├── art-brand
+│   │   │   │   ├── image-1.jpg
+│   │   │   │   ├── image-2.jpg
+│   │   │   │   └── thumb
+│   │   │   │       ├── image-1.jpg
+│   │   │   │       └── image-2.jpg
+│   │   │   ├── flow-focus
+│   │   │   │   ├── image-1.jpg
+│   │   │   │   └── thumb
+│   │   │   │       └── image-1.jpg
+│   │   │   ├── framer
+│   │   │   │   ├── image-1.jpg
+│   │   │   │   └── thumb
+│   │   │   │       └── image-1.jpg
+│   │   │   └── slyme
+│   │   │       ├── image-6.jpg
+│   │   │       └── thumb
+│   │   │           └── image-1.jpg
+│   │   ├── seggz-the-archer
+│   │   │   ├── image-1.jpg
+│   │   │   ├── image-2.jpg
+│   │   │   └── thumb
+│   │   │       ├── image-1.jpg
+│   │   │       └── image-2.jpg
+│   │   ├── zionware
+│   │   │   ├── image-1.jpg
+│   │   │   ├── thumb
+│   │   │   │   └── image-1.jpg
+│   │   │   └── video-1.mp4
+│   │   └── zwift-payment
+│   │       ├── image-1.jpg
+│   │       ├── image-2.jpg
+│   │       └── thumb
+│   │           ├── image-1.jpg
+│   │           └── image-2.jpg
+│   ├── packaging-design
+│   │   └── chiflo
+│   │       ├── image-1.jpg
+│   │       ├── image-2.jpg
+│   │       └── thumb
+│   │           ├── image-1.jpg
+│   │           └── image-2.jpg
+│   └── prints
+│       └── rise-and-conquer
+│           ├── image-1.jpg
+│           └── thumb
+│               └── image-1.jpg
+├── resume.html
+└── test.html

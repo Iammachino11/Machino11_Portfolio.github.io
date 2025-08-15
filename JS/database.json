@@ -10,18 +10,18 @@
         "fullDescription": "Designed a logo and brand identity system for Donna Construction. The project involved creating multiple logo concepts to provide the client with a range of options, from a more literal representation of the construction industry to more abstract and modern designs. The final logo, which combines the initial 'D' of 'Donna' with a house icon, was selected to represent the company's focus on residential construction.",
         "tags": ["logo design", "brand identity", "color theory", "typography", "brand guidelines", "branding"],
         "media": {
-          "thumbnail": "/portfolio/logo-design/donna-construction/thumb/image-1.jpg",
+          "thumbnail": "portfolio/logo-design/donna-construction/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/logo-design/donna-construction/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/donna-construction/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/donna-construction/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/donna-construction/thumb/image-1.jpg",
               "altText": "Donna Construction primary logo"
             },
             {
               "type": "image",
-              "original": "/portfolio/logo-design/donna-construction/image-2.jpg",
-              "thumbnail": "/portfolio/logo-design/donna-construction/thumb/image-2.jpg",
+              "original": "portfolio/logo-design/donna-construction/image-2.jpg",
+              "thumbnail": "portfolio/logo-design/donna-construction/thumb/image-2.jpg",
               "altText": "Donna Construction logo variations"
             }
           ]
@@ -50,12 +50,12 @@
         "fullDescription": "I created the branding for ILUMIN8 Studios, a company that builds 3D worlds, does rendering, and works on gaming projects. The logo is based on a cube shape with bright colors to show depth and creativity. The font is bold and modern, matching the tech and gaming vibe of the brand.",
         "tags": ["branding", "logo design", "3D", "gaming", "rendering", "color", "typography"],
         "media": {
-          "thumbnail": "/portfolio/logo-design/ilumin8/thumb/image-1.jpg",
+          "thumbnail": "portfolio/logo-design/ilumin8/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/logo-design/ilumin8/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/ilumin8/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/ilumin8/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/ilumin8/thumb/image-1.jpg",
               "altText": "ILUMIN8 Studios logo"
             }
           ]
@@ -84,24 +84,24 @@
         "fullDescription": "I created a brand logo for Jah-up Fashion based on a specific client request. The design incorporates a sewing thread and a needle to form the brand name 'Jah-up', with the thread passing through the needle to create the final letter 'P'. The project also included a separate logo for the brand's urban wear collection. The final urban wear logo features a bold, graffiti-style font to capture the street-style vibe, which the client selected from a few options I provided.",
         "tags": ["logo design", "fashion branding", "urban wear", "typography", "custom lettering", "brand identity"],
         "media": {
-            "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-1.jpg",
+            "thumbnail": "portfolio/logo-design/jah-up/thumb/image-1.jpg",
             "items": [
                 {
                     "type": "image",
-                    "original": "/portfolio/logo-design/jah-up/image-1.jpg",
-                    "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-1.jpg",
+                    "original": "portfolio/logo-design/jah-up/image-1.jpg",
+                    "thumbnail": "portfolio/logo-design/jah-up/thumb/image-1.jpg",
                     "altText": "Jah-up Fashion main brand logo"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/logo-design/jah-up/image-2.jpg",
-                    "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-2.jpg",
+                    "original": "portfolio/logo-design/jah-up/image-2.jpg",
+                    "thumbnail": "portfolio/logo-design/jah-up/thumb/image-2.jpg",
                     "altText": "Jah-up Fashion urban wear logo"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/logo-design/jah-up/image-3.jpg",
-                    "thumbnail": "/portfolio/logo-design/jah-up/thumb/image-3.jpg",
+                    "original": "portfolio/logo-design/jah-up/image-3.jpg",
+                    "thumbnail": "portfolio/logo-design/jah-up/thumb/image-3.jpg",
                     "altText": "Alternate design for urban wear logo"
                 }
             ]
@@ -130,18 +130,18 @@
         "fullDescription": "I designed a logo for 'The K.I.N.G Podcast,' an offshoot of an existing FX trading brand. The acronym K.I.N.G. stands for 'Knowledge is next gen.' The logo combines a microphone with a crown and a lightbulb, symbolizing the core idea of knowledge, authority, and new ideas. I created two versions for the client: a vibrant neon version for digital platforms and a simpler, flat design for a professional, branded look.",
         "tags": ["logo design", "podcast branding", "neon design", "brand identity", "typography"],
         "media": {
-            "thumbnail": "/portfolio/logo-design/king-podcast/thumb/image-1.jpg",
+            "thumbnail": "portfolio/logo-design/king-podcast/thumb/image-1.jpg",
             "items": [
                 {
                     "type": "image",
-                    "original": "/portfolio/logo-design/king-podcast/image-1.jpg",
-                    "thumbnail": "/portfolio/logo-design/king-podcast/thumb/image-1.jpg",
+                    "original": "portfolio/logo-design/king-podcast/image-1.jpg",
+                    "thumbnail": "portfolio/logo-design/king-podcast/thumb/image-1.jpg",
                     "altText": "The K.I.N.G Podcast neon logo"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/logo-design/king-podcast/image-2.jpg",
-                    "thumbnail": "/portfolio/logo-design/king-podcast/thumb/image-2.jpg",
+                    "original": "portfolio/logo-design/king-podcast/image-2.jpg",
+                    "thumbnail": "portfolio/logo-design/king-podcast/thumb/image-2.jpg",
                     "altText": "The K.I.N.G Podcast flat logo"
                 }
             ]
@@ -170,12 +170,12 @@
           "fullDescription": "I created this personal logo for myself under the name 'MACHINO11'. The design is a strong, geometric mark that combines the letter 'M' and number '11' to create a unique symbol. It's built with sharp angles and clean lines to give it a modern, and kinda aggressive sharp edges, for the kind of 3D work and digital art I create and share on my Instagram account.",
           "tags": ["logo design", "personal branding", "3D art", "typography", "geometric design", "digital art"],
           "media": {
-              "thumbnail": "/portfolio/logo-design/machino-11/thumb/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/machino-11/thumb/image-1.jpg",
               "items": [
                   {
                       "type": "image",
-                      "original": "/portfolio/logo-design/machino-11/image-1.jpg",
-                      "thumbnail": "/portfolio/logo-design/machino-11/thumb/image-1.jpg",
+                      "original": "portfolio/logo-design/machino-11/image-1.jpg",
+                      "thumbnail": "portfolio/logo-design/machino-11/thumb/image-1.jpg",
                       "altText": "MACHINO11 personal logo"
                   }
               ]
@@ -204,18 +204,18 @@
         "fullDescription": "I created a complete brand identity for Novar Lynk, a tech company specializing in web development and management services. The project included designing a modern, geometric logo that combines the letters 'N' and 'L' using a gradient of blue and turquoise to represent technology and connectivity. I then applied this new brand identity to a promotional flyer. The flyer was designed to clearly showcase their web development services and contact information, using the same professional style and colors to ensure a cohesive look across all their marketing materials.",
         "tags": ["logo design", "brand identity", "web development", "flyer design", "print design", "tech branding"],
         "media": {
-          "thumbnail": "/portfolio/logo-design/novar-lynk/thumb/image-1.jpg",
+          "thumbnail": "portfolio/logo-design/novar-lynk/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/logo-design/novar-lynk/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/novar-lynk/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/novar-lynk/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/novar-lynk/thumb/image-1.jpg",
               "altText": "Novar Lynk logo"
             },
             {
               "type": "image",
-              "original": "/portfolio/flyers/novar-lynk/image-1.jpg",
-              "thumbnail": "/portfolio/flyers/novar-lynk/thumb/image-1.jpg",
+              "original": "portfolio/flyers/novar-lynk/image-1.jpg",
+              "thumbnail": "portfolio/flyers/novar-lynk/thumb/image-1.jpg",
               "altText": "Novar Lynk web development flyer"
             }
           ]
@@ -244,18 +244,18 @@
         "fullDescription": "I developed multiple logo concepts for a brand named 'SEGZZ ARCHER,' a platform focused on trading and financial education. The designs were inspired by the themes of archery and upward growth, symbolizing hitting your financial targets. The concepts included a few different options: one that combined an archer/mild human archer silhoutte and an arrow head, another that used candlesticks chart to form an upward trend and arrow, and a third with a more abstract archer figure. I explored different color palettes, from a professional dark and gold theme to a more vibrant blue, to give the client a range of choices.",
         "tags": ["logo design", "brand identity", "trading", "finance", "education", "brand concepts"],
         "media": {
-          "thumbnail": "/portfolio/logo-design/seggz-the-archer/thumb/image-1.jpg",
+          "thumbnail": "portfolio/logo-design/seggz-the-archer/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/logo-design/seggz-the-archer/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/seggz-the-archer/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/seggz-the-archer/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/seggz-the-archer/thumb/image-1.jpg",
               "altText": "Final logo design for 'The Archer' featuring a mild human silhoutte practicing archery"
             },
             {
               "type": "image",
-              "original": "/portfolio/logo-design/seggz-the-archer/image-2.jpg",
-              "thumbnail": "/portfolio/logo-design/seggz-the-archer/thumb/image-2.jpg",
+              "original": "portfolio/logo-design/seggz-the-archer/image-2.jpg",
+              "thumbnail": "portfolio/logo-design/seggz-the-archer/thumb/image-2.jpg",
               "altText": "Multiple logo concepts for SEGGZ ARCHER"
             }
           ]
@@ -284,18 +284,18 @@
         "fullDescription": "I created both the logo and a motion graphics piece to bring the Zionware brand to life. The logo is a modern, interconnected design featuring three geometric cubes. The animation shows these three cubes coming together and linking to form the final logo.",
         "tags": ["logo design", "motion graphics", "brand identity", "tech branding", "animation"],
         "media": {
-          "thumbnail": "/portfolio/logo-design/zionware/thumb/image-1.jpg",
+          "thumbnail": "portfolio/logo-design/zionware/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/logo-design/zionware/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/zionware/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/zionware/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/zionware/thumb/image-1.jpg",
               "altText": "Zionware static logo"
             },
             {
               "type": "video",
-              "original": "/portfolio/logo-design/zionware/video-1.mp4",
-              "thumbnail": "/portfolio/logo-design/zionware/thumb/image-2.jpg",
+              "original": "portfolio/logo-design/zionware/video-1.mp4",
+              "thumbnail": "portfolio/logo-design/zionware/thumb/image-2.jpg",
               "altText": "Zionware logo animation",
               "duration": 7
             }
@@ -325,18 +325,18 @@
         "fullDescription": "I designed a logo for 'Zwift Payment,' a brand focused on fast and reliable payment services. The logo is based on the letter 'Z' and incorporates motion lines to symbolize speed and efficiency. The color palette uses a vibrant gradient of blue and turquoise to represent trust, technology, and a forward-thinking approach. The design is simple, modern, and easily recognizable, perfect for a digital financial brand.",
         "tags": ["logo design", "brand identity", "fintech", "payment solutions", "typography"],
         "media": {
-          "thumbnail": "/portfolio/logo-design/zwift-payment/thumb/image-1.jpg",
+          "thumbnail": "portfolio/logo-design/zwift-payment/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/logo-design/zwift-payment/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/zwift-payment/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/zwift-payment/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/zwift-payment/thumb/image-1.jpg",
               "altText": "Zwift Payment logo variations"
             },
             {
               "type": "image",
-              "original": "/portfolio/logo-design/zwift-payment/image-2.jpg",
-              "thumbnail": "/portfolio/logo-design/zwift-payment/thumb/image-2.jpg",
+              "original": "portfolio/logo-design/zwift-payment/image-2.jpg",
+              "thumbnail": "portfolio/logo-design/zwift-payment/thumb/image-2.jpg",
               "altText": "Zwift Payment logo with full name"
             }
           ]
@@ -365,36 +365,36 @@
         "fullDescription": "This is a collection of personal logo designs I worked on in my free time to practice different branding styles, , feel free to be inspired.",
         "tags": ["logo design", "brand identity", "typography", "app icon", "sports branding", "urban wear", "personal project"],
         "media": {
-          "thumbnail": "/portfolio/logo-design/personal/art-brand/thumb/image-1.jpg",
+          "thumbnail": "portfolio/logo-design/personal/art-brand/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/logo-design/personal/art-brand/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/personal/art-brand/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/personal/art-brand/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/personal/art-brand/thumb/image-1.jpg",
               "altText": "Artist app icon"
             },
             {
               "type": "image",
-              "original": "/portfolio/logo-design/personal/art-brand/image-2.jpg",
-              "thumbnail": "/portfolio/logo-design/personal/art-brand/thumb/image-2.jpg",
+              "original": "portfolio/logo-design/personal/art-brand/image-2.jpg",
+              "thumbnail": "portfolio/logo-design/personal/art-brand/thumb/image-2.jpg",
               "altText": "Artist app icon variations"
             },
             {
               "type": "image",
-              "original": "/portfolio/logo-design/personal/flow-focus/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/personal/flow-focus/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/personal/flow-focus/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/personal/flow-focus/thumb/image-1.jpg",
               "altText": "Flow Focus logo"
             },
             {
               "type": "image",
-              "original": "/portfolio/logo-design/personal/framer/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/personal/framer/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/personal/framer/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/personal/framer/thumb/image-1.jpg",
               "altText": "Framer logo"
             },
             {
               "type": "image",
-              "original": "/portfolio/logo-design/personal/slyme/image-1.jpg",
-              "thumbnail": "/portfolio/logo-design/personal/slyme/thumb/image-1.jpg",
+              "original": "portfolio/logo-design/personal/slyme/image-1.jpg",
+              "thumbnail": "portfolio/logo-design/personal/slyme/thumb/image-1.jpg",
               "altText": "SLYME logo"
             }
           ]
@@ -423,12 +423,12 @@
         "fullDescription": "I designed a promotional flyer for Bite Bliss, a brand that offers catering services and a variety of food items. The flyer is visually appealing, using a dark background to make the food images stand out. I organized the brand's services and contact information clearly so customers could quickly see what they offer. The design uses high-quality images of their food to make it look appetizing and professional.",
         "tags": ["flyer design", "print design", "marketing materials", "catering", "food services"],
         "media": {
-          "thumbnail": "/portfolio/flyers/bite-bliss/thumb/image-1.jpg",
+          "thumbnail": "portfolio/flyers/bite-bliss/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/flyers/bite-bliss/image-1.jpg",
-              "thumbnail": "/portfolio/flyers/bite-bliss/thumb/image-1.jpg",
+              "original": "portfolio/flyers/bite-bliss/image-1.jpg",
+              "thumbnail": "portfolio/flyers/bite-bliss/thumb/image-1.jpg",
               "altText": "Bite Bliss flyer"
             }
           ]
@@ -457,12 +457,12 @@
         "fullDescription": "I created a promotional flyer to advertise a limited-time discount for IELTS coaching. The design is clean and professional, using a blue and white color palette to create a trustworthy and educational feel. The layout is split into two sections: the top half features a student image to connect with the target audience, and the bottom half clearly outlines the benefits of the coaching and the special discount offer. All the important information, including the contact number, is easy to find.",
         "tags": ["flyer design", "print design", "marketing", "education", "promotion"],
         "media": {
-          "thumbnail": "/portfolio/flyers/IELTS/thumb/image-1.jpg",
+          "thumbnail": "portfolio/flyers/IELTS/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/flyers/IELTS/image-1.jpg",
-              "thumbnail": "/portfolio/flyers/IELTS/thumb/image-1.jpg",
+              "original": "portfolio/flyers/IELTS/image-1.jpg",
+              "thumbnail": "portfolio/flyers/IELTS/thumb/image-1.jpg",
               "altText": "IELTS coaching flyer"
             }
           ]
@@ -491,12 +491,12 @@
         "fullDescription": "I designed a flyer for 'Sniper Kings,' a trading brand founded by Sammie Richie and Matthew D. KING. The flyer is a promotional piece for their Forex trading education program, highlighting how they made their first million. The design uses a cool blue color palette to suggest trust and professionalism. The layout is clean, with key information organized into bullet points and a clear call-to-action for their 'Free' or 'Fee' mentorship program. The flyer features high-quality images of the founders to build a personal connection with potential students.",
         "tags": ["flyer design", "marketing", "forex trading", "education", "finance", "print design"],
         "media": {
-          "thumbnail": "/portfolio/flyers/sniper-kings/thumb/image-1.jpg",
+          "thumbnail": "portfolio/flyers/sniper-kings/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/flyers/sniper-kings/image-1.jpg",
-              "thumbnail": "/portfolio/flyers/sniper-kings/thumb/image-1.jpg",
+              "original": "portfolio/flyers/sniper-kings/image-1.jpg",
+              "thumbnail": "portfolio/flyers/sniper-kings/thumb/image-1.jpg",
               "altText": "Sniper Kings Forex trading flyer"
             }
           ]
@@ -525,12 +525,12 @@
         "fullDescription": "I designed a promotional banner for the 'Remote Developers SkillUp' event. The goal was to create an eye-catching graphic that clearly explains the workshop's purpose. The design features illustrations of remote developers in different locations to highlight the global nature of the work. I used a central graphic with icons for various programming languages (PHP, Node.js, Python, Java) to show the technical focus of the event. The banner also includes all the necessary event details like the date, time, location, and contact information in a clean, easy-to-read format.",
         "tags": ["banner design", "event promotion", "web development", "graphic design", "marketing"],
         "media": {
-          "thumbnail": "/portfolio/banners/remote-dev-skillup/thumb/image-1.jpg",
+          "thumbnail": "portfolio/banners/remote-dev-skillup/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/banners/remote-dev-skillup/image-1.jpg",
-              "thumbnail": "/portfolio/banners/remote-dev-skillup/thumb/image-1.jpg",
+              "original": "portfolio/banners/remote-dev-skillup/image-1.jpg",
+              "thumbnail": "portfolio/banners/remote-dev-skillup/thumb/image-1.jpg",
               "altText": "Remote Developers SkillUp banner"
             }
           ]
@@ -559,18 +559,18 @@
         "fullDescription": "I created a set of custom labels for T&M's wedding souvenirs. The project included a wrapper for 'Chi Flo Hand Soap' and a label for a 'T&M Zobo Mixed Fruit Juice' drink. Both designs share a similar elegant and celebratory feel. The soap label features a clean, watery background with bubbles, while the juice label has a mix of fruit and a vibrant color scheme. Both labels prominently display the couple's initials and the year '2024,' with a 'Thanks for Coming' message to personalize the gifts for their wedding guests.",
         "tags": ["packaging design", "souvenir design", "wedding", "custom label", "print design"],
         "media": {
-          "thumbnail": "/portfolio/packaging-design/chiflo/thumb/image-1.jpg",
+          "thumbnail": "portfolio/packaging-design/chiflo/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/packaging-design/chiflo/image-1.jpg",
-              "thumbnail": "/portfolio/packaging-design/chiflo/thumb/image-1.jpg",
+              "original": "portfolio/packaging-design/chiflo/image-1.jpg",
+              "thumbnail": "portfolio/packaging-design/chiflo/thumb/image-1.jpg",
               "altText": "T&M wedding souvenir soap wrapper"
             },
             {
               "type": "image",
-              "original": "/portfolio/packaging-design/chiflo/image-2.jpg",
-              "thumbnail": "/portfolio/packaging-design/chiflo/thumb/image-2.jpg",
+              "original": "portfolio/packaging-design/chiflo/image-2.jpg",
+              "thumbnail": "portfolio/packaging-design/chiflo/thumb/image-2.jpg",
               "altText": "T&M Zobo mixed fruit juice label"
             }
           ]
@@ -599,12 +599,12 @@
         "fullDescription": "I created a custom t-shirt design featuring a stylized figure and the motivational text 'RISE UP AND CONQUER.' The design uses a unique glitch-art effect with layered primary colors (red, blue, yellow) to create a sense of energy and urgency. The typography is distressed to match the overall style. This graphic was designed specifically for apparel, created to stand out and make a bold statement when printed on a shirt.",
         "tags": ["t-shirt design", "apparel design", "print design", "illustration", "merchandise", "custom art"],
         "media": {
-          "thumbnail": "/portfolio/prints/rise-and-conquer/thumb/image-1.jpg",
+          "thumbnail": "portfolio/prints/rise-and-conquer/thumb/image-1.jpg",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/prints/rise-and-conquer/image-1.jpg",
-              "thumbnail": "/portfolio/prints/rise-and-conquer/thumb/image-1.jpg",
+              "original": "portfolio/prints/rise-and-conquer/image-1.jpg",
+              "thumbnail": "portfolio/prints/rise-and-conquer/thumb/image-1.jpg",
               "altText": "Rise Up and Conquer t-shirt design"
             }
           ]
@@ -633,24 +633,24 @@
         "fullDescription": "This is a personal 3D projects to practice my skills in 3d modelling and rendering. The first part of the project is a realistic rendering of a gaming setup, which I lit and textured to show different times of day—daylight, nighttime, and with ambient RGB lighting.",
         "tags": ["3d rendering", "personal project", "CGI", "animation", "logo design"],
         "media": {
-          "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-1.png",
+          "thumbnail": "portfolio/3d-rendering/gaming-setup/thumb/image-1.png",
           "items": [
             {
               "type": "image",
-              "original": "/portfolio/3d-rendering/gaming-setup/image-1.png",
-              "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-1.png",
+              "original": "portfolio/3d-rendering/gaming-setup/image-1.png",
+              "thumbnail": "portfolio/3d-rendering/gaming-setup/thumb/image-1.png",
               "altText": "A 3D render of a gaming setup with RGB lighting"
             },
             {
               "type": "image",
-              "original": "/portfolio/3d-rendering/gaming-setup/image-2.png",
-              "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-2.png",
+              "original": "portfolio/3d-rendering/gaming-setup/image-2.png",
+              "thumbnail": "portfolio/3d-rendering/gaming-setup/thumb/image-2.png",
               "altText": "A 3D render of a gaming setup at night"
             },
             {
               "type": "image",
-              "original": "/portfolio/3d-rendering/gaming-setup/image-3.jpg",
-              "thumbnail": "/portfolio/3d-rendering/gaming-setup/thumb/image-3.jpg",
+              "original": "portfolio/3d-rendering/gaming-setup/image-3.png",
+              "thumbnail": "portfolio/3d-rendering/gaming-setup/thumb/image-3.png",
               "altText": "A 3D render of a gaming setup during the day"
             }
           ]
@@ -679,36 +679,36 @@
         "fullDescription": "This is a collection of my personal 3D projects created to practice and improve my skills in modeling, texturing, lighting, and rendering. The collection includes a 'Dune'-inspired desert scene with a futuristic hovercraft, a cinematic render of a lost temple, a realistic city street with sports cars, and a A skull half-submerged in mud, with blue crystals glowing nearby. Each project focuses on a different aspect of 3D art, from creating large-scale environments to achieving realistic lighting and materials.",
         "tags": ["3d rendering", "personal project", "CGI", "environment design", "automotive", "lighting", "blender"],
         "media": {
-            "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-1.png",
+            "thumbnail": "portfolio/3d-rendering/collection-1/thumb/image-1.png",
             "items": [
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-1/image-1.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-1.png",
+                    "original": "portfolio/3d-rendering/collection-1/image-1.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-1/thumb/image-1.png",
                     "altText": "A 3D render of a lost temple with light rays"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-1/image-2.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-2.png",
+                    "original": "portfolio/3d-rendering/collection-1/image-2.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-1/thumb/image-2.png",
                     "altText": "A 3D render of a burning candle"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-1/image-3.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-3.png",
+                    "original": "portfolio/3d-rendering/collection-1/image-3.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-1/thumb/image-3.png",
                     "altText": "A 3D render of two sports cars on a city street"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-1/image-4.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-4.png",
+                    "original": "portfolio/3d-rendering/collection-1/image-4.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-1/thumb/image-4.png",
                     "altText": "A 3D render of a 'Dune'-themed desert scene with a hovercraft"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-1/image-5.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-1/thumb/image-5.jpg",
+                    "original": "portfolio/3d-rendering/collection-1/image-5.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-1/thumb/image-5.jpg",
                     "altText": "A 3d render of a skull half-submerged in mud, with blue crystals nearby"
                 }
             ]
@@ -737,24 +737,24 @@
         "fullDescription": "I created this set of 3D renders as a personal project to practice my skills in product visualization. The collection includes a wine bottle and glass, a perfume bottle, and a wine bottle on a geometric background. My main focus was on getting the materials and lighting to look as real as possible, from the glossy glass and liquid to the reflective bottle caps and paper labels. Each scene was a challenge in creating a specific mood and highlighting the product’s key features.",
         "tags": ["3d rendering", "personal project", "product design", "packaging", "CGI", "blender"],
         "media": {
-            "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-1.jpg",
+            "thumbnail": "portfolio/3d-rendering/collection-2/thumb/image-1.jpg",
             "items": [
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-2/image-1.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-1.jpg",
+                    "original": "portfolio/3d-rendering/collection-2/image-1.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-2/thumb/image-1.jpg",
                     "altText": "A 3D render of a luxury perfume bottle"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-2/image-2.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-2.jpg",
+                    "original": "portfolio/3d-rendering/collection-2/image-2.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-2/thumb/image-2.jpg",
                     "altText": "A 3D render of wine being poured into a glass"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-2/image-3.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-2/thumb/image-3.jpg",
+                    "original": "portfolio/3d-rendering/collection-2/image-3.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-2/thumb/image-3.jpg",
                     "altText": "A 3D render of a wine bottle on a glowing hexagonal background"
                 }
             ]
@@ -783,36 +783,36 @@
         "fullDescription": "This is another collection of my personal 3D projects, where I practiced creating different types of scenes. The collection includes a mysterious ancient cave with a floating tesseract cube, a spaceship flying past a ringed planet at sunset, a fantasy-like environment with a bridge, and a modern city gas station at night. Each piece was an exercise in creating a specific atmosphere and using lighting and textures to tell a story.",
         "tags": ["3d rendering", "personal project", "CGI", "environment design", "sci-fi", "fantasy", "blender"],
         "media": {
-            "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-1.jpg",
+            "thumbnail": "portfolio/3d-rendering/collection-3/thumb/image-1.jpg",
             "items": [
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-3/image-1.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-1.jpg",
+                    "original": "portfolio/3d-rendering/collection-3/image-1.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-3/thumb/image-1.jpg",
                     "altText": "A 3D render of an ancient temple bridge with autumn leaves"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-3/image-2.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-2.jpg",
+                    "original": "portfolio/3d-rendering/collection-3/image-2.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-3/thumb/image-2.jpg",
                     "altText": "A 3D render of a futuristic cube floating in a cave"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-3/image-3.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-3.jpg",
+                    "original": "portfolio/3d-rendering/collection-3/image-3.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-3/thumb/image-3.jpg",
                     "altText": "A 3D render of a sci-fi object floating in space"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-3/image-4.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-4.jpg",
+                    "original": "portfolio/3d-rendering/collection-3/image-4.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-3/thumb/image-4.jpg",
                     "altText": "A 3D render of a spaceship flying past a planet"
                 },
                 {
                     "type": "image",
-                    "original": "/portfolio/3d-rendering/collection-3/image-5.png",
-                    "thumbnail": "/portfolio/3d-rendering/collection-3/thumb/image-5.jpg",
+                    "original": "portfolio/3d-rendering/collection-3/image-5.png",
+                    "thumbnail": "portfolio/3d-rendering/collection-3/thumb/image-5.jpg",
                     "altText": "A 3D render of a neon gas station at night"
                 }
             ]
@@ -841,36 +841,36 @@
       "fullDescription": "I designed this concept car as a personal project to practice advanced 3D modeling and rendering skills. The goal was to create a hyper car and showcase it in different settings to test my abilities with lighting and materials. The project includes studio-style shots with sharp lighting, a dynamic scene of the car driving through a desert. Each render focuses on different aspects of the car's design, from its aggressive front to the detailed rear exhaust and unique body shape.",
       "tags": ["3d rendering", "personal project", "automotive", "concept design", "CGI", "blender"],
       "media": {
-          "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-1.jpg",
+          "thumbnail": "portfolio/3d-rendering/concept-car/thumb/image-1.jpg",
           "items": [
               {
                   "type": "image",
-                  "original": "/portfolio/3d-rendering/concept-car/image-1.png",
-                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-1.jpg",
+                  "original": "portfolio/3d-rendering/concept-car/image-1.png",
+                  "thumbnail": "portfolio/3d-rendering/concept-car/thumb/image-1.jpg",
                   "altText": "A white concept hyper car from a low front angle"
               },
               {
                   "type": "image",
-                  "original": "/portfolio/3d-rendering/concept-car/image-2.png",
-                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-2.jpg",
+                  "original": "portfolio/3d-rendering/concept-car/image-2.png",
+                  "thumbnail": "portfolio/3d-rendering/concept-car/thumb/image-2.jpg",
                   "altText": "A 3D render of a hyper car on a desert road"
               },
               {
                   "type": "image",
-                  "original": "/portfolio/3d-rendering/concept-car/image-3.png",
-                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-3.jpg",
+                  "original": "portfolio/3d-rendering/concept-car/image-3.png",
+                  "thumbnail": "portfolio/3d-rendering/concept-car/thumb/image-3.jpg",
                   "altText": "A studio-style 3D render of the car from the front with red and blue lights"
               },
               {
                   "type": "image",
-                  "original": "/portfolio/3d-rendering/concept-car/image-4.png",
-                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-4.jpg",
+                  "original": "portfolio/3d-rendering/concept-car/image-4.png",
+                  "thumbnail": "portfolio/3d-rendering/concept-car/thumb/image-4.jpg",
                   "altText": "A rear view of the hyper concept car in a studio setting"
               },
               {
                   "type": "image",
-                  "original": "/portfolio/3d-rendering/concept-car/image-5.png",
-                  "thumbnail": "/portfolio/3d-rendering/concept-car/thumb/image-5.jpg",
+                  "original": "portfolio/3d-rendering/concept-car/image-5.png",
+                  "thumbnail": "portfolio/3d-rendering/concept-car/thumb/image-5.jpg",
                   "altText": "A side view of the hyper concept car"
               }
           ]
@@ -899,12 +899,12 @@
       "fullDescription": "This is a personal animation project focused on creating a cinematic feel. I modeled a biplane and created a scene with a thick, cloudy atmosphere. The animation shows the plane flying through the clouds, giving a sense of being alone on a long journey. The main goal was to practice camera movements and realistic environmental effects like clouds, fog, and atmospheric lighting.",
       "tags": ["motion graphics", "personal project", "3D animation", "cinematic", "blender", "environmental art"],
       "media": {
-          "thumbnail": "/portfolio/3d-rendering/animations/regular-animations/bi-plane/thumb/image-1.jpg",
+          "thumbnail": "portfolio/3d-rendering/animations/regular-animations/bi-plane/thumb/image-1.jpg",
           "items": [
               {
                   "type": "video",
-                  "original": "/portfolio/3d-rendering/animations/regular-animations/bi-plane/video-1.mp4",
-                  "thumbnail": "/portfolio/3d-rendering/animations/regular-animations/bi-plane/thumb/image-1.jpg",
+                  "original": "portfolio/3d-rendering/animations/regular-animations/bi-plane/video-1.mp4",
+                  "thumbnail": "portfolio/3d-rendering/animations/regular-animations/bi-plane/thumb/image-1.jpg",
                   "altText": "A lonely biplane flying through clouds",
                   "duration": 10
               }
@@ -934,12 +934,12 @@
       "fullDescription": "This animation shows a clear, glass-like rubiks cube that rotates and changes shape, revealing a colorful, glowing wireframe that constantly moves and solving itself.",
       "tags": ["motion graphics", "personal project", "3D animation", "looping animation", "cube", "blender"],
       "media": {
-          "thumbnail": "/portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/thumb/image-1.jpg",
+          "thumbnail": "portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/thumb/image-1.jpg",
           "items": [
               {
                   "type": "video",
-                  "original": "/portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/video-1.mp4",
-                  "thumbnail": "/portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/thumb/image-1.jpg",
+                  "original": "portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/video-1.mp4",
+                  "thumbnail": "portfolio/3d-rendering/animations/motion-graphics/glass-rubiks-cube/thumb/image-1.jpg",
                   "altText": "Abstract Rubiks Cube Animation",
                   "duration": 20
               }
@@ -969,12 +969,12 @@
       "fullDescription": "This is a personal illustration project I created, inspired by the 'Firewatch' art style. It shows a powerful bull and a charging bear, which are classic symbols for the stock market. The main goal was to capture a sense of dynamic action and tension using bold silhouettes and a unique color palette. The layered background and the use of strong light and shadow help to give the image a deep, atmospheric feel.",
       "tags": ["illustration", "2d design", "firewatch style", "digital art", "concept art", "coreldraw"],
       "media": {
-          "thumbnail": "/portfolio/illustrations/bull-vs-bear/thumb/image-1.jpg",
+          "thumbnail": "portfolio/illustrations/bull-vs-bear/thumb/image-1.jpg",
           "items": [
               {
                   "type": "image",
-                  "original": "/portfolio/illustrations/bull-vs-bear/image-1.png",
-                  "thumbnail": "/portfolio/illustrations/bull-vs-bear/thumb/image-1.jpg",
+                  "original": "portfolio/illustrations/bull-vs-bear/image-1.png",
+                  "thumbnail": "portfolio/illustrations/bull-vs-bear/thumb/image-1.jpg",
                   "altText": "A 2D illustration of a bull and a bear charging"
               }
           ]

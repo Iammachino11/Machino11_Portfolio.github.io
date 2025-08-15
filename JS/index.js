@@ -6,7 +6,7 @@ let categoriesData = {};
 // Load portfolio data
 async function loadPortfolioData() {
     try {
-        const response = await fetch('js/database.json');
+        const response = await fetch('JS/database.json');
         const data = await response.json();
         portfolioData = data.portfolio;
         categoriesData = data.categories.reduce((acc, cat) => {
@@ -14,11 +14,24 @@ async function loadPortfolioData() {
             return acc;
         }, {});
         
+        // Shuffle projects on page load
+        portfolioData.projects = shuffleArray(portfolioData.projects);
+        
         renderProjects();
     } catch (error) {
         console.error('Error loading portfolio data:', error);
         $('.errorMessage').text('Failed to load projects').show();
     }
+}
+
+// Keep the shuffleArray function from previous response
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
 }
 
 // Render all projects
@@ -35,7 +48,6 @@ function renderProjects() {
 
 // Create project card HTML
 function createProjectCard(project, category) {
-    const tags = project.tags.slice(0, 3).map(tag => `<span class="tag">${tag}</span>`).join('');
     const thumbnailSrc = project.media.thumbnail || 'images/no-image.svg';
     
     return `
@@ -44,13 +56,12 @@ function createProjectCard(project, category) {
             <div class="projectInfo">
                 <h2 class="projectName">${project.projectTitle}</h2>
                 <div class="projectShortDescription">${project.shortDescription}</div>
-                <div class="tags">${tags}</div>
                 <div class="aboutProjectsContainer">
                     <span class="projectCategory" style="background-color: ${category.colors.background}; color: ${category.colors.text};">
                         ${category.name}
                     </span>
                     <span class="projectDate">
-                       <i class="fa-solid fa-calendar"></i> ${formatDate(project.projectDate)}
+                       <i class="fa-solid fa-calendar"></i> ${project.projectDate ? formatDate(project.projectDate) : 'N/A'}
                     </span>
                 </div>
                 <button class="viewProjectInfoBtn"><i class="fa-solid fa-external-link"></i> View Project</button>
@@ -59,10 +70,14 @@ function createProjectCard(project, category) {
         </div>
     `;
 }
-// Format date
+
+// Format date to DD/MM/YYYY
 function formatDate(dateString) {
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}/${month}/${year}`;
 }
 
 // Handle project card clicks
